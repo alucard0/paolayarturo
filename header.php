@@ -12,7 +12,7 @@ ob_start("ob_gzhandler");
 	<!--metas-->
 	<meta charset="UTF-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="description" content="Grupo integrado por empresas amigas dedicadas al branding, diseño y desarrollo de sitios web">
+	<meta name="description" content="Hagamos de éste día un mosaico de experiencias">
 	<meta name="google-site-verification" content="_L6Ok-F3Enhwh2BzXPIQE36q26_5LpvImuEcqLgsBBk">
 	<meta name="author" content="Somefriends">
 	<meta name="robots" content="index, follow">
@@ -39,6 +39,9 @@ ob_start("ob_gzhandler");
 	<!--Analytics-->
 	<script async="" src="https://www.google-analytics.com/analytics.js"></script>
 	<!-- CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/main.css">
+
 	
 	<!--[if IE]>
 			<link rel="stylesheet" href="css/ie.css">
@@ -93,7 +96,48 @@ ob_start("ob_gzhandler");
 	<meta name="msapplication-TileImage" content="images/favicon//ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	
-	<link rel="alternate" href="https://somefriends.pro" hreflang="es-mx" />
+	<link rel="alternate" href="https://paolayarturo.somefriends.pro" hreflang="es-mx" />
 
 </head>
 <body>
+	<header class="bannerHeader">
+		<div class="container">
+			<nav class="navbar navbar-expand-lg navbar-light bg-light rounded">
+		        <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarsExample10" aria-controls="navbarsExample10" aria-expanded="false" aria-label="Toggle navigation">
+		          <span class="navbar-toggler-icon"></span>
+		        </button>
+
+		        <div class="navbar-collapse justify-content-center collapse" id="navbarsExample10" style="">
+		          <ul class="navbar-nav">
+		            <li class="nav-item active">
+		              <a class="nav-link" href="#">Boletos<span class="sr-only">(current)</span></a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link" href="#">Lugar y fecha</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link " href="#">Dress Code</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link " href="#">Mesa de Regalo</a>
+		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link " href="#">Galería</a>
+		            </li>
+		            
+		          </ul>
+		        </div>
+	      	</nav>
+	      	<div class="contenidoHeader ">
+	      		<div class="row justify-content-center">
+		      		<figure class="logo"><img src="images/header/logo.png" alt="Paola y Arturo 14 de julio Tequesquitengo" class="img-fluid"></figure>
+	      		</div>
+	      		<div class="row justify-content-center">
+		      		<div class="invitacionContenido">
+			      			<p>Invitación</p>
+			      			<p>Ceremonia religiosa <br>& banquete</p>
+			      	</div>
+		      	</div>
+	      	</div>
+      	</div>
+	</header>
