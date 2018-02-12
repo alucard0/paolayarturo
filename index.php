@@ -13,5 +13,14 @@ include 'header.php';
 			<p>¿Qué sería de nosotros sin tí? :D</p>
 		</div>
 	</div>
+
+	<div class="container" id="boletos">
+		<div class="row">
+			<div class="col">
+				<p>Boletos</p>
+				<p>Descarga a tu correo o celular</p>
+			</div>
+		</div>
+	</div>
 		
 <?php include 'footer.php';?>

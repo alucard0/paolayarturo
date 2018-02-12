@@ -2,6 +2,19 @@
 html{
 	font-size: 16px;
 }
+/*Background Rosa*/
+header div.contenidoHeader div.invitacionContenido p:nth-child(1),#boletos{
+	background-color: #e8297c;
+}
+/*Titulos*/
+header div.contenidoHeader div.invitacionContenido p:nth-child(1),
+div#boletos p:nth-child(1)
+{
+	font-size: 40px;
+	letter-spacing: 10px;
+	text-transform: uppercase;
+	text-align: center;
+}
 /*Fin General*/
 
 /*Header*/
@@ -54,19 +67,15 @@ header div.contenidoHeader div.invitacionContenido{
 	margin-bottom: 40px;
 }
 header div.contenidoHeader div.invitacionContenido p{
-	text-transform: uppercase;
 	color: #fff;
-	text-align: center;
 	padding: 10px 20px;
 }
-header div.contenidoHeader div.invitacionContenido p:nth-child(1){
-	background-color: #e9297c;
-	font-size: 40px;
-	letter-spacing: 10px;
-}
+
 header div.contenidoHeader div.invitacionContenido p:nth-child(2){
 	font-size: 30px;
 	letter-spacing: 8px;
+	text-transform: uppercase;
+	text-align: center;
 }
 /*Fin header*/
 
@@ -83,13 +92,27 @@ div.fraseIntro p:nth-child(1){
 	font-size: 30px;
 }
 div.fraseIntro p:nth-child(2){
-	color:#077c83;
+	color:#07c4cc;
 	font-size: 25px;
 }
 div.fraseIntro p:nth-child(3){
 	color:#000;
 	font-size: 20px;
 }
+
+
+div#boletos{
+	cursor: pointer;
+}
+div#boletos p{
+	color: #fff;
+}
+
+div#boletos p:nth-child(2){
+	text-align: center;
+	letter-spacing: 3px;
+}
+
 /*Fin Contenido*/
 /*Footer*/
 /*Fin Footer*/
