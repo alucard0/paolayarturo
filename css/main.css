@@ -1,19 +1,37 @@
 /*General*/
+/*
+font-family: 'Nanum Gothic', sans-serif;
+font-family: 'Fjalla One', sans-serif;
+font-family: 'Barlow Condensed', sans-serif;
+*/
+
 html{
 	font-size: 16px;
 }
+a:hover{
+	text-decoration: none;
+}
+html body{
+	font-family: 'Barlow Condensed', sans-serif;
+}
 /*Background Rosa*/
-header div.contenidoHeader div.invitacionContenido p:nth-child(1),#boletos{
+header div.contenidoHeader div.invitacionContenido p:nth-child(1),#boletos,#mesaRegalos,#dressCode,#comoLlegar{
 	background-color: #e8297c;
 }
 /*Titulos*/
 header div.contenidoHeader div.invitacionContenido p:nth-child(1),
-div#boletos p:nth-child(1)
+div#boletos p:nth-child(1),
+div#mesaRegalos p:nth-child(1),
+div#dressCode p:nth-child(1),
+div#comoLlegar p:nth-child(1),
+div#lugarFecha p:nth-child(1),
+div.infoHotel div.hotelReservacion p.titulo
 {
 	font-size: 40px;
 	letter-spacing: 10px;
 	text-transform: uppercase;
 	text-align: center;
+
 }
 /*Fin General*/
 
@@ -62,7 +80,7 @@ header.bannerHeader{
 header div.contenidoHeader figure.logo{
 	margin: 100px 0;
 }
-header div.contenidoHeader div.invitacionContenido{
+header div.contenidoHeader div.invitacionContenido,div.infoHotel div.hotelReservacion{
 	border: 5px solid #fff;
 	margin-bottom: 40px;
 }
@@ -91,7 +109,7 @@ div.fraseIntro p:nth-child(1){
 	color: #000;
 	font-size: 30px;
 }
-div.fraseIntro p:nth-child(2){
+div.fraseIntro p:nth-child(2),div#lugarFecha p:nth-child(2){
 	color:#07c4cc;
 	font-size: 25px;
 }
@@ -104,17 +122,83 @@ div.fraseIntro p:nth-child(3){
 div#boletos{
 	cursor: pointer;
 }
-div#boletos p{
+div#boletos p,div#mesaRegalos p,div#dressCode p,div#comoLlegar p,div.infoHotel p{
 	color: #fff;
 }
+div#boletos span{
 
+	font-size: 20px;
+}
 div#boletos p:nth-child(2){
 	text-align: center;
 	letter-spacing: 3px;
 }
-
+div#lugarFecha p,div.infoHotel p{
+	text-align: center;
+}
+div.bannerHotel{
+	background: url(../images/trescielos/3cielosBG.jpg) no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 20px 0;
+}
+div.infoHotel p:nth-child(1){
+	font-size: 24px;
+}
+div.infoHotel p:nth-child(1){
+	font-size: 20px;
+}
+div.infoHotel div.hotelReservacion{
+	padding: 50px;
+}
+div.contactoHotel a, div.contactoHotel p{
+	color:#07c4cc;
+	font-size: 25px;
+	text-align: center;
+	display: block;
+}
+div.contactoHotel p{
+	font-size: 20px;
+}
+div.contactoHotel a:nth-child(1){
+	font-size: 45px;
+}
 /*Fin Contenido*/
 /*Footer*/
 /*Fin Footer*/
 
 /*Media queries*/
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+	header div.contenidoHeader div.invitacionContenido p:nth-child(1), div#boletos p:nth-child(1), div#mesaRegalos p:nth-child(1), div#dressCode p:nth-child(1), div#comoLlegar p:nth-child(1), div#lugarFecha p:nth-child(1), div.infoHotel div.hotelReservacion p.titulo {
+    	font-size: 30px;
+	}
+	div.infoHotel div.hotelReservacion {
+    	padding: 0px;
+	}
+}
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) {
+ html{
+    font-size: 20px;
+  }
+
+}
+
+/*Medium devices (tablets, less than 992px)*/
+@media (max-width: 991.98px) { 
+
+ html{
+    font-size: 16px;
+  }
+}
+
+/*Large devices (desktops, less than 1200px)*/
+@media (max-width: 1199.98px) { 
+
+ html{
+    font-size: 16px;
+  }
+}

@@ -3,4 +3,3 @@ Disallow:
 Disallow: /modelo
 Disallow: /controlador
 
-Sitemap: http://somefgriends.pro/sitemap.xml

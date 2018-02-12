@@ -24,7 +24,7 @@ ob_start("ob_gzhandler");
 	
 	<script>
 	  WebFontConfig = {
-	    google: { families: [ 'Roboto:100,300,400,500,700,900', 'Ultra' ] }
+	    google: { families: ['Barlow+Condensed:400,400i,500,500i,600,600i,700,','Fjalla+One','Nanum+Gothic:400,700,800' }
 	  };
 	  (function() {
 	    var wf = document.createElement('script');
@@ -41,6 +41,7 @@ ob_start("ob_gzhandler");
 	<!-- CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/open-iconic/1.1.1/font/css/open-iconic-bootstrap.min.css">
 
 	
 	<!--[if IE]>
@@ -112,7 +113,7 @@ ob_start("ob_gzhandler");
 		              <a class="nav-link " href="#">Dress Code</a>
 		            </li>
 		            <li class="nav-item">
-		              <a class="nav-link " href="#">Mesa de Regalo</a>
+		              <a class="nav-link " href="https://boda-paoyarturo.zankyou.com/mx/mesa-regalos/mesa-regalos" target="_blank" rel="noopener">Mesa de Regalo</a>
 		            </li>
 		            <li class="nav-item">
 		              <a class="nav-link " href="#">Galería</a>
