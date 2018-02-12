@@ -89,16 +89,35 @@ ServerSignature Off
 Options -Indexes
 DirectoryIndex index.php
 
-#Redireccion a no www
-Options +MultiViews
-RewriteEngine On
-RewriteBase /
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+    Options +FollowSymlinks
+    Options +MultiViews
+    RewriteBase /
+
+    RewriteCond %{HTTPS} =on
+    RewriteRule ^ - [env=proto:https]
+    RewriteCond %{HTTPS} !=on
+    RewriteRule ^ - [env=proto:http]
+
+# ----------------------------------------------------------------------
+# | Forcing `https://`                                                 |
+# ----------------------------------------------------------------------
+   RewriteCond %{HTTPS} !=on
+   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+
+# ----------------------------------------------------------------------
+# | Suppressing / Forcing the `www.` at the beginning of URLs          |
+# ----------------------------------------------------------------------
+    RewriteBase /
+    RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+    RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+
+</IfModule>
 
 
 #Quitar extensiones php
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteRule ^([^\.]+)$ $1.php [NC,L]
-
