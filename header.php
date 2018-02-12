@@ -19,8 +19,8 @@ ob_start("ob_gzhandler");
 	<!-- Mobile Metas -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0">
  	
- 	<meta property="og:url" content="http://paolayarturo.somefriends.pro/">
-    <meta property="og:image" content="paolayarturo.somefriends.pro/images/header/delataCover.jpg">
+ 	<meta property="og:url" content="https://paolayarturo.somefriends.pro/">
+    <meta property="og:image" content="https://paolayarturo.somefriends.pro/images/header/banner.jpg">
     <meta property="og:title" content="Paola y Arturo">
     <meta property="og:description" content="Hagamos de este día un mosaico de experiencias">
 
