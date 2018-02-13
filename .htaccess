@@ -104,8 +104,8 @@ DirectoryIndex index.php
 # ----------------------------------------------------------------------
 # | Forcing `https://`                                                 |
 # ----------------------------------------------------------------------
-   RewriteCond %{HTTPS} !=on
-   RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
+  #RewriteCond %{HTTPS} !=on
+  #RewriteRule ^ https://%{HTTP_HOST}%{REQUEST_URI} [R=301,L]
 
 # ----------------------------------------------------------------------
 # | Suppressing / Forcing the `www.` at the beginning of URLs          |

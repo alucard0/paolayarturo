@@ -84,35 +84,31 @@ include 'header.php';
 	</div>
 	<div class="container">
 		<div class="row contactoHotel list-group">
-
-				<a href="http://trescielos.mx/" target="_blank" rel="noopener" class="mx-auto">trescielos.mx</a>
-				<a href="mailto:vero@trescielos.mx" class="mx-auto">vero@trescielos.mx</a>
-				<a href="mailto:reservaciones@trescielos.mx" class="mx-auto">reservaciones@trescielos.mx</a>
-				<a href="tel://55-6845-6444" class="mx-auto">(55) 6845 6444</a>
-				<a href="tel://734-3470-613" class="mx-auto">(734) 3470 613</a>
-				<p class="mx-auto">de 8:00 a 17:00 h</p>
-
-
+			<a href="http://trescielos.mx/" target="_blank" rel="noopener" class="mx-auto">trescielos.mx</a>
+			<a href="mailto:vero@trescielos.mx" class="mx-auto">vero@trescielos.mx</a>
+			<a href="mailto:reservaciones@trescielos.mx" class="mx-auto">reservaciones@trescielos.mx</a>
+			<a href="tel://55-6845-6444" class="mx-auto">(55) 6845 6444</a>
+			<a href="tel://734-3470-613" class="mx-auto">(734) 3470 613</a>
+			<p class="mx-auto">de 8:00 a 17:00 h</p>
+		</div>
+	</div>
+<div id="mapa_QTech" class="col-md-12"></div>
+	<div class="container" id="dressCode">
+		<div class="row">
+			<div class="col">
+				<p>Dress code</p>
+			</div>
 		</div>
 	</div>
 
-		<div class="container" id="dressCode">
-			<div class="row">
-				<div class="col">
-					<p>Dress code</p>
-				</div>
+
+	<div class="container" id="mesaRegalos">
+		<div class="row">
+			<div class="col">
+				<p>Mesa de regalos</p>
 			</div>
 		</div>
-
-
-
-		<div class="container" id="mesaRegalos">
-			<div class="row">
-				<div class="col">
-					<p>Mesa de regalos</p>
-				</div>
-			</div>
-		</div>
+	</div>
 
 
 
