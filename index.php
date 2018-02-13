@@ -92,7 +92,37 @@ include 'header.php';
 			<p class="mx-auto">de 8:00 a 17:00 h</p>
 		</div>
 	</div>
-<div id="mapa_QTech" class="col-md-12"></div>
+
+	<div class="container" id="comoLlegar">
+		<div class="row">
+			<div class="col">
+				<p >¿Cómo llegar?</p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div id="mapa"></div>
+		<div class="row">
+			<div class="col-3">
+				<p class="text-right">Carro</p>
+			</div>
+			<div class="col-9">
+				<p>Lago de Teques lt 36 4ª sección Tequesquitengo, Jojutla, Morelos (Bajada 6 Hasta el fondo)</p>
+			</div>
+			<div class="col-3">
+				<p class="text-right">Autobus</p>
+			</div>
+			<div class="col-9">
+				<p>CENTRAL DE AUTOBUSES TAXQUEÑA
+				Tomar la partida a Jojutla / entrando a Teques  pedir al conductor que los deje en el módulo de Jojutla y pedir taxi. solicitar que los lleve al faro en la bajada 6 del lago.
+				</p>
+			</div>
+		</div>
+	</div>
+
+
+
+
 	<div class="container" id="dressCode">
 		<div class="row">
 			<div class="col">
@@ -102,11 +132,17 @@ include 'header.php';
 	</div>
 
 
+
 	<div class="container" id="mesaRegalos">
 		<div class="row">
 			<div class="col">
 				<p>Mesa de regalos</p>
 			</div>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			
 		</div>
 	</div>
 

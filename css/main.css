@@ -147,7 +147,7 @@ div.bannerHotel{
 div.infoHotel p:nth-child(1){
 	font-size: 24px;
 }
-div.infoHotel p:nth-child(1){
+div.infoHotel p:nth-child(2){
 	font-size: 20px;
 }
 div.infoHotel div.hotelReservacion{
@@ -164,6 +164,10 @@ div.contactoHotel p{
 }
 div.contactoHotel a:nth-child(1){
 	font-size: 45px;
+}
+#mapa{
+    height: 400px;
+    width: 100%;
 }
 /*Fin Contenido*/
 /*Footer*/
