@@ -29,7 +29,7 @@ ob_start("ob_gzhandler");
 	
 	<script>
 	  WebFontConfig = {
-	    google: { families: ['Barlow+Condensed:400,400i,500,500i,600,600i,700,','Fjalla+One','Nanum+Gothic:400,700,800'] }
+	    google: { families: ['Open+Sans+Condensed:300,700','Open+Sans:300,400,400i,700'] }
 	  };
 	  (function() {
 	    var wf = document.createElement('script');

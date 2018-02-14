@@ -12,12 +12,14 @@ a:hover{
 	text-decoration: none;
 }
 html body{
-	font-family: 'Barlow Condensed', sans-serif;
+	font-family: 'Open Sans', sans-serif;
 }
 /*Background Rosa*/
 header div.contenidoHeader div.invitacionContenido p:nth-child(1),#boletos,#mesaRegalos,#dressCode,#comoLlegar{
 	background-color: #e8297c;
 }
+/*padding-top: 26px; para boletos, para invitacion padding-top: 12px;*/
+
 /*Titulos*/
 header div.contenidoHeader div.invitacionContenido p:nth-child(1),
 div#boletos p:nth-child(1),
@@ -31,6 +33,8 @@ div.infoHotel div.hotelReservacion p.titulo
 	letter-spacing: 10px;
 	text-transform: uppercase;
 	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 700;
 
 }
 /*Fin General*/
@@ -81,9 +85,11 @@ header div.contenidoHeader figure.logo{
 	margin: 100px 0;
 }
 header div.contenidoHeader div.invitacionContenido,div.infoHotel div.hotelReservacion{
-	border: 5px solid #fff;
+	border: 2px solid #fff;
 	margin-bottom: 40px;
 }
+/*Agregar padding al cuadro de invitacion padding: 0px 50px;*/
+
 header div.contenidoHeader div.invitacionContenido p{
 	color: #fff;
 	padding: 10px 20px;
@@ -91,9 +97,11 @@ header div.contenidoHeader div.invitacionContenido p{
 
 header div.contenidoHeader div.invitacionContenido p:nth-child(2){
 	font-size: 30px;
-	letter-spacing: 8px;
+	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-align: center;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: 400;
 }
 /*Fin header*/
 
@@ -107,15 +115,19 @@ div.fraseIntro p{
 }
 div.fraseIntro p:nth-child(1){
 	color: #000;
-	font-size: 30px;
+	font-size: 40px;
+	line-height: 45px;
 }
 div.fraseIntro p:nth-child(2),div#lugarFecha p:nth-child(2){
-	color:#07c4cc;
+	color:#636466;
 	font-size: 25px;
+	line-height: 30px;
+	margin-top: 30px;
 }
 div.fraseIntro p:nth-child(3){
 	color:#000;
-	font-size: 20px;
+	font-size: 16px;
+	margin-top: 20px;
 }
 
 
@@ -136,6 +148,8 @@ div#boletos p:nth-child(2){
 div#lugarFecha p,div.infoHotel p{
 	text-align: center;
 }
+
+
 div.bannerHotel{
 	background: url(../images/trescielos/3cielosBG.jpg) no-repeat center center;
 	background-size: cover;
@@ -144,6 +158,7 @@ div.bannerHotel{
 	-o-background-size: cover;
 	padding: 20px 0;
 }
+/*background: #07c4cc para abajo de la info de hotel*/
 div.infoHotel p:nth-child(1){
 	font-size: 24px;
 }
