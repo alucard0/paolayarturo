@@ -109,16 +109,16 @@ ob_start("ob_gzhandler");
 		        <div class="navbar-collapse justify-content-center collapse" id="navbarsExample10" style="">
 		          <ul class="navbar-nav">
 		            <li class="nav-item active">
-		              <a class="nav-link" href="#">Boletos<span class="sr-only">(current)</span></a>
+		              <a class="nav-link" href="#boletos">Boletos<span class="sr-only">(current)</span></a>
 		            </li>
 		            <li class="nav-item">
-		              <a class="nav-link" href="#">Lugar y fecha</a>
+		              <a class="nav-link" href="#lugarFecha">Lugar y fecha</a>
 		            </li>
 		            <li class="nav-item">
-		              <a class="nav-link " href="#">Dress Code</a>
+		              <a class="nav-link " href="#dressCode">Dress Code</a>
 		            </li>
 		            <li class="nav-item">
-		              <a class="nav-link " href="https://boda-paoyarturo.zankyou.com/mx/mesa-regalos/mesa-regalos" target="_blank" rel="noopener">Mesa de Regalo</a>
+		              <a class="nav-link " href="#mesaRegalos">Mesa de Regalo</a>
 		            </li>
 		            <li class="nav-item">
 		              <a class="nav-link " href="#">Galería</a>

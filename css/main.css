@@ -169,6 +169,39 @@ div.contactoHotel a:nth-child(1){
     height: 400px;
     width: 100%;
 }
+
+div.infoDressCode p{
+	color: #000;
+	width: 100%;
+    margin-bottom: 0;
+    text-align: center;
+}
+div.infoDressCode p:nth-child(1){
+	text-transform: uppercase;
+	color:#07c4cc;
+	font-size: 25px;
+}
+
+div.infoDressCode div.bgGris{
+	background-color: #e3e3e3;
+}
+div.infoDressCode div.bgGris p.titulo{
+	font-size: 40px;
+	color: #e8297c;
+	font-weight: 800;
+}
+div.infoDressCode div.bgGris p.subtitulo{
+	font-size: 25px;
+	font-weight: 800;
+}
+div.infoDressCode div.bgGris ul{
+	list-style: none;
+	margin-top: 15px;
+}
+div.infoMesaRegalos p{
+	text-align: center;
+	font-size: 25px;
+}
 /*Fin Contenido*/
 /*Footer*/
 /*Fin Footer*/
