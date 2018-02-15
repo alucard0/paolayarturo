@@ -18,10 +18,33 @@
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
-
+    
+    <!--Carousel-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
+      <script type="text/javascript"> 
+            $(document).ready(function() {
+                $(".owl-carousel").owlCarousel({
+                    autoPlay: 8000, //Set AutoPlay to 3 seconds
+                    items : 3,
+                    loop:true,
+                    nav:false,
+                    responsive:{
+                    0:{
+                        items:1
+                    },
+                    600:{
+                        items:3
+                    },
+                    1000:{
+                        items:3
+                    }
+                }
+                                
+              });
+          });
+        </script>
     <!-- Mapas Contacto-->
-	    <script>
+	<script>
       function initMap() {
         var trescielos = {lat: 18.612878, lng: -99.279799};
         var map = new google.maps.Map(document.getElementById('mapa'), {

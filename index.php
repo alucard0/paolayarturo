@@ -44,43 +44,69 @@ include 'header.php';
 		<!-- Video https://youtu.be/5sI5OTtQmxc-->
 		<div class="container">
 			<div class="row justify-content-center">
-				<figure><img src="images/trescielos/3Cielos_Logo.png" alt="logo Hotel Tres Cielos" class="img-fluid"></figure>
+				<figure>
+					<img src="images/trescielos/3Cielos_Logo.png" alt="logo Hotel Tres Cielos" class="img-fluid w-50">
+				</figure>
 			</div>
 			<div class="row justify-content-center">
 				<p>¿Qué mejor lugar para consentir a nuestros invitados?</p>
 				<p>Antes de prepararte para la ceremonia, relájate en las albercas, juega un partidito de tenis o simplemente disfruta de una vista de sueño.</p>
 			</div>
-			<div class="hotelReservacion">
+		</div>
+	</div>
+	<div class="container bgAzul">
+		<div class="hotelReservacion">
 				<p class="titulo">Hotel</p>
 				<div class="row justify-content-center">
 				  	
 				  	<!--Aqui va carrousel-->
-				  	<div class="col-12">
-				   		<figure><img src="images/trescielos/3_TRESCIELOS.jpg" alt="" class="img-fluid"></figure>
+				  	<div class="owl-carousel owl-theme">
+  					  	<figure class="item">
+				   			<img src="images/trescielos/1_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
+					  	<figure class="item">
+				   			<img src="images/trescielos/2_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
+					  	<figure class="item">
+				   			<img src="images/trescielos/3_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
+				   		<figure class="item">
+				   			<img src="images/trescielos/4_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
+						<figure class="item">
+				   			<img src="images/trescielos/5_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
+				   		<figure class="item">
+				   			<img src="images/trescielos/6_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
+				   		<figure class="item">
+				   			<img src="images/trescielos/7_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
+				   		<figure class="item">
+				   			<img src="images/trescielos/8_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
 				   	</div>
 				   		
 				</div>
 				<p class="titulo">Reservación</p>
 				<div class="row">
-			      	<div class="col-6 text-right"><p class="text-right">bed</p></div>
-			      	<div class="col-6">
+			      	<div class="col-4 col-sm-6 text-right"><p class="text-right">bed</p></div>
+			      	<div class="col-8 col-sm-6">
 			      		<p class="text-left">12 habitaciones dobles</p></div>
-			      	<div class="col-6">
+			      	<div class="col-4 col-sm-6">
 			      		<p class="text-right">$2,800.00</p>
 			      	</div>
-			      	<div class="col-6">
+			      	<div class="col-8 ">
 			      		<p class="text-left">Precio por 1 noche<br>3 pagos mensuales de<br>$934.00 a liquidar en abril</p>
 			      	</div>
-			      	<div class="col-6">
+			      	<div class="col-4 col-sm-6">
 			      		<p class="text-right">$4,400</p>
 			      	</div>
-			      	<div class="col-6">
+			      	<div class="col-8 col-sm-6">
 			      			<p class="text-left">Precio por 2 noches o +<br>3 pagos mensuales de<br>$1,467.00 a liquidar en abril</p>
 			      	</div>
 			    </div>
 			</div>
-
-		</div>
 	</div>
 	<div class="container">
 		<div class="row contactoHotel list-group">
@@ -105,14 +131,13 @@ include 'header.php';
 			<div id="mapa"></div>	
 		</div>
 		
-		<div class="row">
+		<div class="row infoTransporte">
 			<div class="col-12 text-center">
 				<a href="https://www.waze.com/location?ll=18.612878,-99.279799" target="_blank" rel="noopener" >waze</a>
 				<a href="https://www.google.com.mx/maps/place/%22EL+FARO%22/@18.612878,-99.2819877,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdd362b84e3e91:0xf16fbfd753a2e978!8m2!3d18.612878!4d-99.279799?shorturl=1" target="_blank" rel="noopener" >maps</a>
 			</div>
-
 		</div>
-		<div class="row">
+		<div class="row infoTransporte">
 			<div class="col-3">
 				<p class="text-right">Carro</p>
 			</div>
@@ -120,7 +145,7 @@ include 'header.php';
 				<p>Lago de Teques lt 36 4ª sección Tequesquitengo, Jojutla, Morelos (Bajada 6 Hasta el fondo)</p>
 			</div>
 			<div class="col-3">
-				<p class="text-right">Autobus</p>
+				<p class="text-right">Autobús</p>
 			</div>
 			<div class="col-9">
 				<p>CENTRAL DE AUTOBUSES TAXQUEÑA
@@ -205,6 +230,5 @@ include 'header.php';
 			<a href="https://boda-paoyarturo.zankyou.com/mx/mesa-regalos/mesa-regalos" target="_blank" rel="noopener">Ver mesa de Regalo</a>
 		</div>
 	</div>
-
 
 <?php include 'footer.php';?>
