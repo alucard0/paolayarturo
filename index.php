@@ -25,6 +25,7 @@ include 'header.php';
 	<div class="container" id="lugarFecha">
 			<div class="row">
 				<div class="col">
+					<p>Evento sólo para moyores de 21 años</p>
 					<p>Lugar y Fecha</p>
 					<p>La ceremonia religiosa y el banquete tendrá lugar el 14 de julio 2018 en el hotel Tres Cielos Tequesquitengo.</p>
 				</div>
@@ -62,19 +63,19 @@ include 'header.php';
 				  	<!--Aqui va carrousel-->
 				  	<div class="owl-carousel owl-theme">
   					  	<figure class="item">
-				   			<img src="images/trescielos/1_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   			<img src="images/trescielos/8_TRESCIELOS.jpg" alt="" class="img-fluid">
 				   		</figure>
 					  	<figure class="item">
-				   			<img src="images/trescielos/2_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   			<img src="images/trescielos/5_TRESCIELOS.jpg" alt="" class="img-fluid">
 				   		</figure>
 					  	<figure class="item">
-				   			<img src="images/trescielos/3_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-				   		<figure class="item">
 				   			<img src="images/trescielos/4_TRESCIELOS.jpg" alt="" class="img-fluid">
 				   		</figure>
+				   		<figure class="item">
+				   			<img src="images/trescielos/3_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   		</figure>
 						<figure class="item">
-				   			<img src="images/trescielos/5_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   			<img src="images/trescielos/2_TRESCIELOS.jpg" alt="" class="img-fluid">
 				   		</figure>
 				   		<figure class="item">
 				   			<img src="images/trescielos/6_TRESCIELOS.jpg" alt="" class="img-fluid">
@@ -83,7 +84,7 @@ include 'header.php';
 				   			<img src="images/trescielos/7_TRESCIELOS.jpg" alt="" class="img-fluid">
 				   		</figure>
 				   		<figure class="item">
-				   			<img src="images/trescielos/8_TRESCIELOS.jpg" alt="" class="img-fluid">
+				   			<img src="images/trescielos/1_TRESCIELOS.jpg" alt="" class="img-fluid">
 				   		</figure>
 				   	</div>
 				   		
@@ -94,17 +95,12 @@ include 'header.php';
 			      	<div class="col-8 col-sm-6">
 			      		<p class="text-left">12 habitaciones dobles</p></div>
 			      	<div class="col-4 col-sm-6">
-			      		<p class="text-right">$2,800.00</p>
+			      		<p class="text-right">$2,200.00</p>
 			      	</div>
 			      	<div class="col-8 ">
-			      		<p class="text-left">Precio por 1 noche<br>3 pagos mensuales de<br>$934.00 a liquidar en abril</p>
+			      		<p class="text-left">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en abril</p>
 			      	</div>
-			      	<div class="col-4 col-sm-6">
-			      		<p class="text-right">$4,400</p>
-			      	</div>
-			      	<div class="col-8 col-sm-6">
-			      			<p class="text-left">Precio por 2 noches o +<br>3 pagos mensuales de<br>$1,467.00 a liquidar en abril</p>
-			      	</div>
+			      	
 			    </div>
 			</div>
 	</div>
@@ -170,7 +166,14 @@ include 'header.php';
 			<p>Formal playa/lino</p>
 		</div>
 		<div class="bgGris">
-			<img src="images/dresscode/mujeres/5_DRESSCODE-MUJER.jpg" alt="mujeres" class="img-fluid">
+			<div class="owl-carousel owl-theme">
+				<figure class="item"><img src="images/dresscode/mujeres/5_DRESSCODE-MUJER.jpg" alt=""></figure>
+				<figure class="item"><img src="images/dresscode/mujeres/2_DRESSCODE-MUJER.jpg" alt=""></figure>
+				<figure class="item"><img src="images/dresscode/mujeres/4_DRESSCODE-MUJER.jpg" alt=""></figure>
+				<figure class="item"><img src="images/dresscode/mujeres/6_DRESSCODE-MUJER.jpg" alt=""></figure>
+				<figure class="item"><img src="images/dresscode/mujeres/7_DRESSCODE-MUJER.jpg" alt=""></figure>
+				<figure class="item"><img src="images/dresscode/mujeres/8_DRESSCODE-MUJER.jpg" alt=""></figure>
+			</div>
 			<p class="titulo">Mujeres</p>
 			<p class="subtitulo">Vestido largo o 3/4 halter o strapless</p>
 			<div class="row justify-content-center">
@@ -185,7 +188,32 @@ include 'header.php';
 					<li>Tacones o zapato abierto</li>
 				</ul>
 			</div>
-			<img src="images/dresscode/hombres/1_DRESSCODE-HOMBRE.jpg" alt="hombres" class="img-fluid">
+			
+			<div class="owl-carousel owl-theme">
+				<figure class="item">
+					<img src="images/dresscode/hombres/1_DRESSCODE-HOMBRE.jpg" alt="hombres" class="img-fluid">
+				</figure>
+				<figure class="item">
+					<img src="images/dresscode/hombres/2_DRESSCODE-HOMBRE.jpg" alt="">
+				</figure>
+				<figure class="item">
+					<img src="images/dresscode/hombres/3_DRESSCODE-HOMBRE.jpg" alt="">
+				</figure>
+				<figure class="item">
+					<img src="images/dresscode/hombres/4_DRESSCODE-HOMBRE.jpg" alt="">
+				</figure>
+				<figure class="item">
+					<img src="images/dresscode/hombres/5_DRESSCODE-HOMBRE.jpg" alt="">
+				</figure>
+				<figure class="item">
+					<img src="images/dresscode/hombres/6_DRESSCODE-HOMBRE.jpg" alt="">
+				</figure>
+				<figure class="item">
+					<img src="images/dresscode/hombres/7_DRESSCODE-HOMBRE.jpg" alt="">
+				</figure>
+			</div>
+
+
 			<p class="titulo">Hombres</p>
 			<p class="subtitulo">Traje de lino o algodón</p>
 			<p class="subtitulo">Agradecemos atentamente no vestir guayaberas</p>
@@ -194,6 +222,7 @@ include 'header.php';
 					<li>Camisa de lino, algodón liviano o</li>
 					<li>seda ligera</li>
 					<li>Evitar texturas o impresos en la camisa </li>
+					<li>Se puede utilizar algún patrón discreto</li>
 					<li>Pantalón de lino o algodón</li>
 					<li>Color:</li>
 					<li>Claro,  blanco o arena, azules o negros.</li>
@@ -215,6 +244,10 @@ include 'header.php';
 			</div>
 		</div>
 	</div>
+	<div class="container bannerMesaRegalos">
+		<p>Asian algo</p>
+	</div>
+
 	<div class="container infoMesaRegalos">
 		<div class="row justify-content-center">
 			<div class="col-12">

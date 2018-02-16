@@ -24,7 +24,7 @@
       <script type="text/javascript"> 
             $(document).ready(function() {
                 $(".owl-carousel").owlCarousel({
-                    autoPlay: 8000, //Set AutoPlay to 3 seconds
+                    autoPlay: 5000, //Set AutoPlay to 3 seconds
                     items : 3,
                     loop:true,
                     nav:false,
