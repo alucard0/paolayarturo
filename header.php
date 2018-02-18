@@ -136,10 +136,19 @@ ob_start("ob_gzhandler");
 		      		<figure class="logo"><img src="images/header/logo.png" alt="Paola y Arturo 14 de julio Tequesquitengo" class="img-fluid"></figure>
 	      		</div>
 	      		<div class="row justify-content-center">
-		      		<div class="invitacionContenido">
+	      			<div class="col-2 nopadding">
+	      				<figure class="nomargin"><img src="images/mosaicos/1_ICONO_IZQ_PLANTAS-.png" alt="" class="img-fluid"></figure>
+	      			</div>
+		      		<div class="col-8 invitacionContenido nopadding">
 			      			<p>Invitación</p>
 			      			<p>Ceremonia religiosa<br>& banquete</p>
 			      	</div>
+			      	<div class="col-2 nopadding">
+	      				<figure class="nomargin"><img src="images/mosaicos/1_ICONO_DER_FLOR.png" alt="" class="img-fluid"></figure>
+	      			</div>
+	      			<div class="col-12 nopadding">
+	      				<figure class="nomargin"><img src="images/mosaicos/1_ICONO_CENTRO_PLANTAS-.png" alt="" class="img-fluid"></figure>
+	      			</div>
 		      	</div>
 	      	</div>
       	</div>
