@@ -40,6 +40,16 @@ div.bgAzul p.titulo
     margin-bottom: 0;
 
 }
+
+.img-tmp{
+	width: 100px;
+}
+.img-tmp400{
+	width: 400px;
+}
+.img-tmp300{
+	width: 300px;
+}
 /*Fin General*/
 
 /*Header*/
@@ -99,7 +109,7 @@ header div.contenidoHeader div.invitacionContenido p{
 }
 
 header div.contenidoHeader div.invitacionContenido p:nth-child(2){
-	font-size: 20px;
+	font-size: 40px;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	text-align: center;
@@ -146,9 +156,6 @@ div.fraseIntro p:nth-child(3),div#lugarFecha p:nth-child(1),{
 }
 
 
-div#boletos{
-	cursor: pointer;
-}
 div#boletos p,div#mesaRegalos p,div#dressCode p,div#comoLlegar p,div.infoHotel p,
 div.hotelReservacion p{
 	color: #fff;
@@ -178,7 +185,7 @@ div.bannerHotel{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	padding: 20px;
+	padding: 200px 100px;
 }
 
 div.infoHotel p:nth-child(1){
@@ -256,6 +263,26 @@ div.infoDressCode div.bgGris ul{
 div.infoHombres, div.infoMujeres{
 	padding: 0 15px;
 }
+
+span.iconoH{
+	background-image: url('../images/iconos/hombre.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-left: 50px;  /* width of the image plus a little extra padding */
+}
+span.iconoM{
+	background-image: url('../images/iconos/mujer.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding-left: 50px;  /* width of the image plus a little extra padding */
+}
+/*
 span.icono{
     width: 40px;
     height: 40px;
@@ -274,7 +301,7 @@ span.icono.mujer{
     background-size: 40px 40px;
     background-repeat: no-repeat;
 }
-
+*/
 
 div.infoMesaRegalos p{
 	text-align: center;
@@ -301,6 +328,10 @@ div.bannerMesaRegalos p{
 /*Media queries*/
 /*Extra small devices (portrait phones, less than 576px)*/
 @media (max-width: 575.98px) {
+	header div.contenidoHeader div.invitacionContenido p:nth-child(2){
+		font-size: 20px;
+	}
+
 	header div.contenidoHeader div.invitacionContenido p:nth-child(1){
 		letter-spacing: 8px;
 	}
@@ -319,6 +350,9 @@ div.bannerMesaRegalos p{
 	}
 	div#boletos p:nth-child(2) {
 	    font-size: 13px;
+	}
+	div.bannerHotel{
+		padding: 20px;
 	}
 	div.hotelReservacion {
     	padding: 20px;
@@ -350,4 +384,5 @@ div.bannerMesaRegalos p{
  html{
     font-size: 16px;
   }
+
 }

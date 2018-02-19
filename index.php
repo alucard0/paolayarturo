@@ -16,22 +16,19 @@ include 'header.php';
 	<div class="container" id="boletos">
 			<div class="row">
 				<div class="col-2 nopadding">
-					<figure class="nomargin"><img src="images/mosaicos/2_ICONO_IZQ_PYA.png" alt="" class="img-fluid"></figure>
+					<figure class="nomargin text-right"><img src="images/mosaicos/2_ICONO_IZQ_PYA.png" alt="" class="img-fluid img-tmp"></figure>
 				</div>
 				<div class="col-8 nopadding bgBoletos">
 					<a href="#" data-toggle="modal" data-target="#modalBoletos">
-						<div class="col">
-							<p>Boletos</p>
-							<p>Descarga a tu correo o celular<br><span class="oi oi-data-transfer-download"></span></p>
-						</div>
-						
+						<p>Boletos</p>
+						<p>Descarga a tu correo o celular<br><span class="oi oi-data-transfer-download"></span></p>
 					</a>
 				</div>
 				<div class="col-2 nopadding">
-					<figure class="nomargin"><img src="images/mosaicos/2_ICONO_DER_PLANTA.png" alt="" class="img-fluid"></figure>
+					<figure class="nomargin  text-left"><img src="images/mosaicos/2_ICONO_DER_PLANTA.png" alt="" class="img-fluid img-tmp"></figure>
 				</div>
 				<div class="col-12 nopadding">
-					<figure class="text-center nomargin"><img src="images/mosaicos/2_ICONO_CENTRO_PLANTA.png" alt="" class="img-fluid"></figure>
+					<figure class="text-center nomargin"><img src="images/mosaicos/2_ICONO_CENTRO_PLANTA.png" alt="" class="img-fluid img-tmp300"></figure>
 				</div>
 			</div>
 	</div>
@@ -80,7 +77,7 @@ include 'header.php';
 			</div>
 	</div>
 
-	<div class="bannerHotel infoHotel">
+	<div class="bannerHotel infoHotel container">
 		<!-- Video https://youtu.be/5sI5OTtQmxc-->
 		<div class="container">
 			<div class="row justify-content-center">
@@ -144,7 +141,7 @@ include 'header.php';
 		      	<div class="col-4 col-sm-6">
 		      		<p class="text-right">$2,200.00</p>
 		      	</div>
-		      	<div class="col-8 ">
+		      	<div class="col-8 col-sm-6">
 		      		<p class="text-left">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en abril</p>
 		      	</div>
 		    </div>
@@ -163,14 +160,14 @@ include 'header.php';
 
 	<div class="container" id="comoLlegar">
 		<div class="row">
-			<div class="col-2 nopadding">
-				<figure class="nomargin"><img src="images/mosaicos/4_ICONO_IZQ_MOTO.png" alt="" class="img-fluid"></figure>
+			<div class="col-2 nopadding text-right">
+				<figure class="nomargin"><img src="images/mosaicos/4_ICONO_IZQ_MOTO.png" alt="" class="img-fluid img-tmp"></figure>
 			</div>
 			<div class="col nopadding bgComoLlegar">
 				<p >¿Cómo llegar?</p>
 			</div>
-			<div class="col-2 nopadding">
-				<figure class="nomargin"><img src="images/mosaicos/4_ICONO_DER_PLANTA.png" alt="" class="img-fluid"></figure>
+			<div class="col-2 nopadding text-left">
+				<figure class="nomargin"><img src="images/mosaicos/4_ICONO_DER_PLANTA.png" alt="" class="img-fluid img-tmp"></figure>
 			</div>
 		</div>
 	</div>
@@ -211,14 +208,14 @@ include 'header.php';
 	<div class="container" id="dressCode">
 		<div class="row">
 			<div class="col-2 nopaddingR">
-				<figure class="nomargin"><img src="images/mosaicos/5_ICONO_IZQ_PLANTA.png" alt="" class="img-fluid"></figure>
+				<figure class="nomargin text-right"><img src="images/mosaicos/5_ICONO_IZQ_PLANTA.png" alt="" class="img-fluid img-tmp"></figure>
 			</div>
 			<div class="col bgDressCode">
 				<p>Dress code</p>
 				<!--<figure class="nomargin text-right"><img src="images/mosaicos/5_ICONO_CENTRO_PLANTAS.png" alt="" class="img-fluid"></figure>-->
 			</div>
 			<div class="col-2 nopaddingL">
-				<figure class="nomargin"><img src="images/mosaicos/5_ICONO_DER_GATOS.png" alt="" class="img-fluid"></figure>
+				<figure class="nomargin text-left"><img src="images/mosaicos/5_ICONO_DER_GATOS.png" alt="" class="img-fluid img-tmp"></figure>
 			</div>
 		</div>
 	</div>
@@ -236,7 +233,7 @@ include 'header.php';
 				<figure class="item"><img src="images/dresscode/mujeres/8_DRESSCODE-MUJER.jpg" alt=""></figure>
 			</div>
 			<div class="infoMujeres">
-				<p class="titulo"><span class="icono mujer"></span>Mujeres</p>
+				<p class="titulo"><span class="iconoM"></span>Mujeres</p>
 				<p class="subtitulo">Vestido largo o 3/4 halter o strapless</p>
 				<div class="row justify-content-center">
 					<ul >
@@ -276,7 +273,7 @@ include 'header.php';
 				</figure>
 			</div>
 			<div class="infoHombres">
-				<p class="titulo"><span class="icono hombre"></span>Hombres</p>
+				<p class="titulo"><span class="iconoH"></span>Hombres</p>
 				<p class="subtitulo">Traje de lino o algodón</p>
 				<p class="subtitulo">Agradecemos atentamente no vestir guayaberas</p>
 				<div class="row justify-content-center">
@@ -302,19 +299,25 @@ include 'header.php';
 
 	<div class="container" id="mesaRegalos">
 		<div class="row">
-			<div class="col-2 nopadding">
-				<figure class="nomargin"><img src="images/mosaicos/6_ICONO_IZQ_ELEFANTE.png" alt="" class="img-fluid"></figure>
+			<div class="col-2 nopaddingR">
+				<figure class="nomargin text-right"><img src="images/mosaicos/6_ICONO_IZQ_ELEFANTE.png" alt="" class="img-fluid img-tmp"></figure>
 			</div>
 			<div class="col nopadding bgMesaRegalos">
 				<p>Mesa de regalos</p>
 			</div>
-			<div class="col-2 nopadding">
-				<figure class="nomargin"><img src="images/mosaicos/6_ICONO_DER_AVION.png" alt="" class="img-fluid"></figure>
+			<div class="col-2 nopaddingL">
+				<figure class="nomargin text-left"><img src="images/mosaicos/6_ICONO_DER_AVION.png" alt="" class="img-fluid img-tmp"></figure>
 			</div>
 		</div>
 	</div>
 	<div class="container bannerMesaRegalos">
-		<p>Asian Wanderlust</p>
+		<div class="row justify-content-center">
+			<div class="col">
+				<p>Asian Wanderlust</p>
+			</div>
+			
+		</div>
+		
 	</div>
 
 	<div class="container infoMesaRegalos">
