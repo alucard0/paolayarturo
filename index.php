@@ -14,21 +14,21 @@ include 'header.php';
 	</div>
 
 	<div class="container" id="boletos">
-			<div class="row">
+			<div class="row justify-content-center">
 				<div class="col-2 nopadding">
-					<figure class="nomargin text-right"><img src="images/mosaicos/2_ICONO_IZQ_PYA.png" alt="" class="img-fluid img-tmp"></figure>
+					<figure class="nomargin text-right"><img src="images/mosaicos/2_ICONO_IZQ_PYA.png" alt="" class="img-fluid"></figure>
 				</div>
-				<div class="col-8 nopadding bgBoletos">
+				<div class="col-8 col-sm-6 nopadding bgBoletos">
 					<a href="#" data-toggle="modal" data-target="#modalBoletos">
 						<p>Boletos</p>
 						<p>Descarga a tu correo o celular<br><span class="oi oi-data-transfer-download"></span></p>
 					</a>
 				</div>
 				<div class="col-2 nopadding">
-					<figure class="nomargin  text-left"><img src="images/mosaicos/2_ICONO_DER_PLANTA.png" alt="" class="img-fluid img-tmp"></figure>
+					<figure class="nomargin  text-left"><img src="images/mosaicos/2_ICONO_DER_PLANTA.png" alt="" class="img-fluid"></figure>
 				</div>
-				<div class="col-12 nopadding">
-					<figure class="text-center nomargin"><img src="images/mosaicos/2_ICONO_CENTRO_PLANTA.png" alt="" class="img-fluid img-tmp300"></figure>
+				<div class="col-8 col-sm-6 nopadding text-center">
+					<figure class=" nomargin"><img src="images/mosaicos/2_ICONO_CENTRO_PLANTA.png" alt="" class="img-fluid align-top"></figure>
 				</div>
 			</div>
 	</div>
@@ -79,32 +79,30 @@ include 'header.php';
 
 	<div class="bannerHotel infoHotel container">
 		<!-- Video https://youtu.be/5sI5OTtQmxc-->
-		<div class="container">
-			<div class="row justify-content-center">
-				<figure>
-					<img src="images/trescielos/3Cielos_Logo.png" alt="logo Hotel Tres Cielos" class="img-fluid w-50">
-				</figure>
-			</div>
-			<div class="row justify-content-center">
-				<p>¿Qué mejor lugar para consentir a nuestros invitados?</p>
-				<p>Antes de prepararte para la ceremonia, relájate en las albercas, juega un partidito de tenis o simplemente disfruta de una vista de sueño.</p>
-			</div>
+		<div class="row justify-content-center">
+			<figure class="text-center">
+				<img src="images/trescielos/3Cielos_Logo.png" alt="logo Hotel Tres Cielos" class="img-fluid">
+			</figure>
+		</div>
+		<div class="row justify-content-center">
+			<p>¿Qué mejor lugar para consentir a nuestros invitados?</p>
+		</div>
+	</div>
+	<div class="container infoHotel bgAzul">
+		<div class="row justify-content-center">
+			<p>Antes de prepararte para la ceremonia, relájate en las albercas, juega un partidito de tenis o simplemente disfruta de una vista de sueño.</p>
 		</div>
 	</div>
 	<div class="container bgAzul">
 		<div class="row justify-content-center">
-					
-					<div class="col-8 nopadding">
-						<p class="titulo">Hotel</p>
-					</div>
-				  	<div class="col-2 nopadding">
-						<figure class="nomargin text-right"><img src="images/mosaicos/3_ICONO_DER_PALMA.png" alt="" class="img-fluid"></figure>
-					</div>
-					<div class="col-2 nopadding">
-						<figure class="nomargin text-left"><img src="images/mosaicos/3_ICONO_DER_FLOR.png" alt="" class="img-fluid"></figure>
-					</div>
-				  	<!--Aqui va carrousel-->
-				  	<div class="owl-carousel owl-theme">
+			<div class="col-12 col-sm-6 hotelHeader">
+				<div class="row justify-content-end">
+					<p class="titulo">Hotel</p>
+					<figure class="nomargin text-right"><img src="images/mosaicos/3_ICONO_DER_PALMA.png" class="img-fluid" alt=""></figure>
+				</div>
+			</div>	
+			<!--Aqui va carrousel-->
+			<div class="owl-carousel owl-theme">
   					  	<figure class="item">
 				   			<img src="images/trescielos/8_TRESCIELOS.jpg" alt="" class="img-fluid">
 				   		</figure>
@@ -131,20 +129,22 @@ include 'header.php';
 				   		</figure>
 				   	</div>
 				   		
-				</div>
-		<div class="hotelReservacion">
-			<p class="titulo">Reservación</p>
-			<div class="row">
-		      	<div class="col-4 col-sm-6 text-right"><figure><img src="images/iconos/iconoHotel.png" alt="hotel" class="img-fluid"></figure></div>
-		      	<div class="col-8 col-sm-6">
-		      		<p class="text-left">12 habitaciones dobles</p></div>
-		      	<div class="col-4 col-sm-6">
-		      		<p class="text-right">$2,200.00</p>
-		      	</div>
-		      	<div class="col-8 col-sm-6">
-		      		<p class="text-left">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en abril</p>
-		      	</div>
-		    </div>
+		</div>
+		<div class="row justify-content-center">
+			<div class="hotelReservacion col-sm-6">
+				<p class="titulo">Reservación</p>
+				<div class="row">
+			      	<div class="col-4 col-sm-6 text-right"><figure><img src="images/iconos/iconoHotel.png" alt="hotel" class="img-fluid"></figure></div>
+			      	<div class="col-8 col-sm-6">
+			      		<p class="text-left">12 habitaciones dobles</p></div>
+			      	<div class="col-4 col-sm-6">
+			      		<p class="text-right">$2,200.00</p>
+			      	</div>
+			      	<div class="col-8 col-sm-6">
+			      		<p class="text-left">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en abril</p>
+			      	</div>
+			    </div>
+			</div>
 		</div>
 	</div>
 	<div class="container">

@@ -15,8 +15,11 @@ html body{
 	font-family: 'Open Sans', sans-serif;
 }
 /*Background Rosa*/
-header div.contenidoHeader div.invitacionContenido p:nth-child(1),div.bgBoletos,div.bgMesaRegalos,div.bgDressCode,div.bgComoLlegar{
+header div.contenidoHeader div.invitacionContenido p:nth-child(1),
+div.bgBoletos,div.bgMesaRegalos,
+div.bgDressCode,div.bgComoLlegar{
 	background-color: #e8297c;
+	padding: 3.3% 0;
 }
 /*padding-top: 26px; para boletos, para invitacion padding-top: 12px;*/
 
@@ -36,7 +39,7 @@ div.bgAzul p.titulo
 	text-align: center;
 	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: 700;
-	padding: 15px 0px;
+	/*padding: 15px 0px;*/
     margin-bottom: 0;
 
 }
@@ -97,7 +100,9 @@ header.bannerHeader{
 header div.contenidoHeader figure.logo{
 	margin: 215px 0 35px 0;
 }
-header div.contenidoHeader div.invitacionContenido,div.hotelReservacion{
+header div.contenidoHeader div.invitacionContenido,
+div.hotelReservacion,
+div.hotelHeader{
 	border: 2px solid #fff;
 	/*margin-bottom: 40px;*/
 }
@@ -185,7 +190,10 @@ div.bannerHotel{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	padding: 200px 100px;
+	padding: 100px 0px;
+}
+div.bannerHotel figure{
+	margin-top: 165px;
 }
 
 div.infoHotel p:nth-child(1){
@@ -352,7 +360,10 @@ div.bannerMesaRegalos p{
 	    font-size: 13px;
 	}
 	div.bannerHotel{
-		padding: 20px;
+		padding: 1px;
+	}
+	div.bannerHotel figure img{
+		width: 44%;
 	}
 	div.hotelReservacion {
     	padding: 20px;
