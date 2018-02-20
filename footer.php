@@ -24,10 +24,12 @@
       <script type="text/javascript"> 
             $(document).ready(function() {
                 $(".owl-carousel").owlCarousel({
-                    autoPlay: 5000, //Set AutoPlay to 3 seconds
+                    autoplay: true,
+                    autoplayTimeout:4000, //Set AutoPlay to 3 seconds
                     items : 3,
                     loop:true,
                     nav:false,
+                    autoHeight:true,
                     responsive:{
                     0:{
                         items:1

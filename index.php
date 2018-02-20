@@ -5,36 +5,43 @@ include 'header.php';
 *	Documento: Live del micrositio
 */
 ?>
-	<div class="container">
-		<div class="row fraseIntro justify-content-center">
+	<div class="container-fluid bgAzul">
+		<div class="fraseIntro justify-content-center">
 			<p>Hagamos de este día un mosaico de experiencias</p>
-			<p>Para nosotros es un honor  que nos acompañes y seas parte de nuestro sueño,  por que como dice Michael J. Fox, "La familia no es algo importante. Lo es todo."</p>
 			<p>¿Qué sería de nosotros sin tí? :D</p>
+
 		</div>
 	</div>
-
-	<div class="container" id="boletos">
-			<div class="row justify-content-center">
-				<div class="col-2 nopadding">
-					<figure class="nomargin text-right"><img src="images/mosaicos/2_ICONO_IZQ_PYA.png" alt="" class="img-fluid"></figure>
-				</div>
-				<div class="col-8 col-sm-6 nopadding bgBoletos">
-					<a href="#" data-toggle="modal" data-target="#modalBoletos">
-						<p>Boletos</p>
-						<p>Descarga a tu correo o celular<br><span class="oi oi-data-transfer-download"></span></p>
-					</a>
-				</div>
-				<div class="col-2 nopadding">
-					<figure class="nomargin  text-left"><img src="images/mosaicos/2_ICONO_DER_PLANTA.png" alt="" class="img-fluid"></figure>
-				</div>
-				<div class="col-8 col-sm-6 nopadding text-center">
-					<figure class=" nomargin"><img src="images/mosaicos/2_ICONO_CENTRO_PLANTA.png" alt="" class="img-fluid align-top"></figure>
-				</div>
+<figure class="nomargin"><img src="images/mosaicos/mosaicoDivision.png" alt="" class="img-fluid"></figure>
+	<div class="container-fluid" id="boletos">
+		<div class="row justify-content-center">
+			<div class="col-12 col-sm-6">
+				<p class="frase">Para nosotros es un honor  que nos acompañes y seas parte de nuestro sueño,  por que como dice Michael J. Fox, "La familia no es algo importante. Lo es todo."</p>
 			</div>
+			<div class="col-12 col-sm-6">
+				<div class="row botonBoleto justify-content-center">
+					<div class="col-2 nopadding">
+					<figure class="nomargin text-right"><img src="images/mosaicos/2_ICONO_IZQ_PYA.png" alt="" class="img-fluid"></figure>
+					</div>
+					<div class="col-8 col-sm-8 nopadding bgBoletos">
+						<a href="#" data-toggle="modal" data-target="#modalBoletos">
+							<p>Boletos</p>
+							<p>Descarga a tu correo o celular<br><span class="oi oi-data-transfer-download"></span></p>
+						</a>
+					</div>
+					<div class="col-2 nopadding">
+						<figure class="nomargin  text-left"><img src="images/mosaicos/2_ICONO_DER_PLANTA.png" alt="" class="img-fluid"></figure>
+					</div>
+					<div class="col-8 col-sm-8 nopadding text-center">
+						<p class="restriccion">Evento sólo para moyores de 21 años</p>
+					</div>
+				</div>				
+			</div>	
+		</div>
 	</div>
 	<!-- Modal -->
 	<div class="modal fade" id="modalBoletos" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	  <div class="modal-dialog" role="document">
+	  <div class="modal-dialog modal-dialog-centered" role="document">
 	    <div class="modal-content">
 	      <div class="modal-header">
 	        <h5 class="modal-title" id="exampleModalLabel">Descarga tus boletos</h5>
@@ -58,12 +65,14 @@ include 'header.php';
 	    </div>
 	  </div>
 	</div>
-	<div class="container" id="lugarFecha">
+	<div class="container-fluid" id="lugarFecha">
 			<div class="row">
-				<div class="col">
-					<p>Evento sólo para moyores de 21 años</p>
-					<p>Lugar y Fecha</p>
-					<p>La ceremonia religiosa y el banquete tendrá lugar el 14 de julio 2018 en el hotel Tres Cielos Tequesquitengo.</p>
+				<div class="col-12 col-sm-6">
+					<p class="titulo">Lugar y Fecha</p>
+					
+				</div>
+				<div class="col-12 col-sm-6">
+					<p class="contenido">La ceremonia religiosa y el banquete tendrá lugar el 14 de julio 2018 en el hotel Tres Cielos Tequesquitengo.</p>
 				</div>
 			</div>
 	</div>
@@ -77,17 +86,54 @@ include 'header.php';
 			</div>
 	</div>
 
-	<div class="bannerHotel infoHotel container">
-		<!-- Video https://youtu.be/5sI5OTtQmxc-->
-		<div class="row justify-content-center">
-			<figure class="text-center">
-				<img src="images/trescielos/3Cielos_Logo.png" alt="logo Hotel Tres Cielos" class="img-fluid">
-			</figure>
-		</div>
-		<div class="row justify-content-center">
-			<p>¿Qué mejor lugar para consentir a nuestros invitados?</p>
+	<div class="bannerHotel infoHotel">
+		<div class="container">
+			<div class="row justify-content-center">
+				<figure class="text-center">
+					<img src="images/trescielos/3Cielos_Logo.png" alt="logo Hotel Tres Cielos" class="img-fluid">
+				</figure>
+			</div>
+			<div class="row justify-content-center">
+				<p>¿Qué mejor lugar para consentir a nuestros invitados?</p>
+			</div>
 		</div>
 	</div>
+	<!--Aqui va carrousel-->
+	<div class="container-fluid">
+		<div class="row">
+			<div class="owl-carousel owl-theme">
+  	  	<figure class="item">
+			<img src="images/trescielos/8_TRESCIELOS.jpg" alt="" class="img-fluid">
+   		</figure>
+	  	<figure class="item">
+   			<img src="images/trescielos/5_TRESCIELOS.jpg" alt="" class="img-fluid">
+   		</figure>
+	  	<figure class="item">
+   			<img src="images/trescielos/4_TRESCIELOS.jpg" alt="" class="img-fluid">
+   		</figure>
+   		<figure class="item">
+   			<img src="images/trescielos/3_TRESCIELOS.jpg" alt="" class="img-fluid">
+   		</figure>
+		<figure class="item">
+   			<img src="images/trescielos/2_TRESCIELOS.jpg" alt="" class="img-fluid">
+   		</figure>
+   		<figure class="item">
+   			<img src="images/trescielos/6_TRESCIELOS.jpg" alt="" class="img-fluid">
+   		</figure>
+   		<figure class="item">
+   			<img src="images/trescielos/7_TRESCIELOS.jpg" alt="" class="img-fluid">
+   		</figure>
+	   		<figure class="item">
+	  			<img src="images/trescielos/1_TRESCIELOS.jpg" alt="" class="img-fluid">
+		</figure>
+   		<div class="item videoWrapper">
+   			<iframe width="100%" src="https://www.youtube.com/embed/5sI5OTtQmxc?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+   		</div>
+ 	</div>
+		</div>
+	</div>
+	
+				   		
 	<div class="container infoHotel bgAzul">
 		<div class="row justify-content-center">
 			<p>Antes de prepararte para la ceremonia, relájate en las albercas, juega un partidito de tenis o simplemente disfruta de una vista de sueño.</p>
@@ -101,34 +147,7 @@ include 'header.php';
 					<figure class="nomargin text-right"><img src="images/mosaicos/3_ICONO_DER_PALMA.png" class="img-fluid" alt=""></figure>
 				</div>
 			</div>	
-			<!--Aqui va carrousel-->
-			<div class="owl-carousel owl-theme">
-  					  	<figure class="item">
-				   			<img src="images/trescielos/8_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-					  	<figure class="item">
-				   			<img src="images/trescielos/5_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-					  	<figure class="item">
-				   			<img src="images/trescielos/4_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-				   		<figure class="item">
-				   			<img src="images/trescielos/3_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-						<figure class="item">
-				   			<img src="images/trescielos/2_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-				   		<figure class="item">
-				   			<img src="images/trescielos/6_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-				   		<figure class="item">
-				   			<img src="images/trescielos/7_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-				   		<figure class="item">
-				   			<img src="images/trescielos/1_TRESCIELOS.jpg" alt="" class="img-fluid">
-				   		</figure>
-				   	</div>
-				   		
+			
 		</div>
 		<div class="row justify-content-center">
 			<div class="hotelReservacion col-sm-6">

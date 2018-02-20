@@ -29,7 +29,7 @@ ob_start("ob_gzhandler");
 	
 	<script>
 	  WebFontConfig = {
-	    google: { families: ['Open+Sans+Condensed:300,700','Open+Sans:300,400,400i,700'] }
+	    google: { families: ['Open+Sans+Condensed:300,600,600i,700','Open+Sans:300,400,400i,700'] }
 	  };
 	  (function() {
 	    var wf = document.createElement('script');
