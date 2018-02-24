@@ -137,22 +137,32 @@ include 'header.php';
 	</div>
 	
 	<div class="container-fluid" id="hotel">
-		<div class="row">
-			<div class="col-12 col-sm-6">
+		<div class="row no-gutters">
+			<div class="col-2 col-sm-1">
+				<figure class="text-right mosaico">
+					<img src="images/mosaicos/hotel/4_ICONO-PALMA_100X100.png" alt="" class="img-fluid">
+				</figure>
+			</div>
+			<div class="col-10 col-sm-5">
 				<p class="titulo">Hotel</p>
+				<p class="subtituloR">Reservación</p>
 				<hr>
 			</div>
 			<div class="col-12 col-sm-6">
-				<figure>
-					<img src="images/iconos/cama.png" alt="hotel" class="img-fluid">
-				</figure>
-				<p>Disponibilidad<br><span>12 habitaciones dobles</span></p>
+				<div class="row">
+					<div class="col-3">
+						<figure class="text-right">
+							<img src="images/iconos/cama.png" alt="hotel" class="img-fluid">
+						</figure>
+					</div>
+					<div class="col-3">
+						<p class="disponibilidad">Disponibilidad<br><span>12 habitaciones dobles</span></p>
+					</div>
+				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12 col-sm-6 contactoHotel">
-				<p class="subtitulo">Reservación</p>
-				
 				<p>Verónica</p>
 				<a href="mailto:vero@trescielos.mx" class="mx-auto">vero@trescielos.mx</a>
 				<a href="mailto:reservaciones@trescielos.mx" class="mx-auto">reservaciones@trescielos.mx</a>
@@ -163,71 +173,79 @@ include 'header.php';
 				<p class="mx-auto">de 8:00 a 17:00 h</p>
 			
 			</div>
-			<div class="col-12 col-sm-6">
-				
+			<div class="col-12 col-sm-6 infoReservacion">
+				<p class="precio">$2,200.00</p>
+				<p class="contenido">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en abril</p>
+				<p class="tituloServicios">Servicios</p>
+				<p class="contenidoSerivicios">Cancha de tenis / Cancha de padel / Alberca<br>Muelle / Snackbar / Palapa</p>
 			</div>
 		</div>
+		<div class="row">
+			<div id="mapa"></div>	
+		</div>
 	</div>			   		
-	<div class="container infoHotel bgAzul">
-		<div class="row justify-content-center">
-			<p>Antes de prepararte para la ceremonia, relájate en las albercas, juega un partidito de tenis o simplemente disfruta de una vista de sueño.</p>
-		</div>
-	</div>
-	<div class="container bgAzul">
-		<div class="row justify-content-center">
-			<div class="col-12 col-sm-6 hotelHeader">
-				<div class="row justify-content-end">
-					<p class="titulo">Hotel</p>
-					<figure class="nomargin text-right"><img src="images/mosaicos/3_ICONO_DER_PALMA.png" class="img-fluid" alt=""></figure>
-				</div>
-			</div>	
-			
-		</div>
-		<div class="row justify-content-center">
-			<div class="hotelReservacion col-sm-6">
-				<p class="titulo">Reservación</p>
+	
+
+	<div class="container-fluid" id="comoLlegar">
+		<div class="row no-gutters">
+			<div class="col-2 col-sm-1">
+				<figure class="text-right mosaico">
+					<img src="images/mosaicos/hotel/4_ICONO-PALMA_100X100.png" alt="" class="img-fluid">
+				</figure>
+			</div>
+			<div class="col-10 col-sm-5">
+				<p class="titulo">¿Cómo llegar?</p>
+				<hr>
+				<p class="direccion">Lago de Teques lt 36 4ª sección Tequesquitengo, Jojutla, Morelos (Bajada 6 Hasta el fondo)</p>
+			</div>
+			<div class="col-12 col-sm-6">
 				<div class="row">
-			      	<div class="col-4 col-sm-6 text-right"><figure><img src="images/iconos/iconoHotel.png" alt="hotel" class="img-fluid"></figure></div>
-			      	<div class="col-8 col-sm-6">
-			      		<p class="text-left">12 habitaciones dobles</p></div>
-			      	<div class="col-4 col-sm-6">
-			      		<p class="text-right">$2,200.00</p>
-			      	</div>
-			      	<div class="col-8 col-sm-6">
-			      		<p class="text-left">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en abril</p>
-			      	</div>
-			    </div>
+					<div class="col transporte">
+						<div class="row">
+							<figure class="col text-right">
+								<img src="images/iconos/car.png" alt="hotel" class="img-fluid">
+							</figure>
+							<figure class="col text-center">
+								<img src="images/iconos/bus.png" alt="hotel" class="img-fluid">
+								<figcaption>CENTRAL DE AUTOBUSES TAXQUEÑA
+								Tomar la partida a Jojutla / entrando a Teques  pedir al conductor que los deje en el módulo de Jojutla y pedir taxi. solicitar que los lleve al faro en la bajada 6 del lago.
+								</figcaption>
+							</figure>
+
+						</div>
+						
+					</div>
+					<div class="col">
+						<div class="row">
+							<div class="col">
+								<a href="https://www.waze.com/location?ll=18.612878,-99.279799" target="_blank" rel="noopener" >
+									<figure class="text-center">
+										<img src="images/iconos/waze.png" alt="hotel" class="img-fluid">
+									</figure>
+								</a>
+							</div>
+							<div class="col">
+								<a href="https://www.google.com.mx/maps/place/%22EL+FARO%22/@18.612878,-99.2819877,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdd362b84e3e91:0xf16fbfd753a2e978!8m2!3d18.612878!4d-99.279799?shorturl=1" target="_blank" rel="noopener" >
+										<figure class="text-left">
+											<img src="images/iconos/googlemaps.png" alt="hotel" class="img-fluid">
+										</figure>
+									</a>
+							</div>
+						</div>
+					</div>
+				</div>	
 			</div>
 		</div>
 	</div>
 	<div class="container">
 		
-	</div>
-
-	<div class="container" id="comoLlegar">
-		<div class="row">
-			<div class="col-2 nopadding text-right">
-				<figure class="nomargin"><img src="images/mosaicos/4_ICONO_IZQ_MOTO.png" alt="" class="img-fluid img-tmp"></figure>
-			</div>
-			<div class="col nopadding bgComoLlegar">
-				<p >¿Cómo llegar?</p>
-			</div>
-			<div class="col-2 nopadding text-left">
-				<figure class="nomargin"><img src="images/mosaicos/4_ICONO_DER_PLANTA.png" alt="" class="img-fluid img-tmp"></figure>
-			</div>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			<div id="mapa"></div>	
-		</div>
 		
 		<div class="row infoTransporte">
 			<div class="col text-right">
 				<a href="https://www.waze.com/location?ll=18.612878,-99.279799" target="_blank" rel="noopener" ><figure><img src="images/iconos/waze.png" alt="mapa de waze" class="img-fluid"></figure></a>
 			</div>
 			<div class="col text-left">
-				<a href="https://www.google.com.mx/maps/place/%22EL+FARO%22/@18.612878,-99.2819877,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdd362b84e3e91:0xf16fbfd753a2e978!8m2!3d18.612878!4d-99.279799?shorturl=1" target="_blank" rel="noopener" ><figure><img src="images/iconos/googlemaps.png" alt="" class="img-fluid"></figure></a>
+				<figure><img src="images/iconos/googlemaps.png" alt="" class="img-fluid"></figure></a>
 			</div>
 		</div>
 		<div class="row infoTransporte">

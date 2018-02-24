@@ -31,11 +31,11 @@ header div.contenidoHeader div.invitacionContenido p:nth-child(1),
 div#boletos div.botonBoleto p.titulo,
 div#mesaRegalos p:nth-child(1),
 div#dressCode p:nth-child(1),
-div#comoLlegar p:nth-child(1),
 div#lugarFecha p.titulo,
 div.hotelReservacion p.titulo,
 div#hotel p.titulo,
-div#hotel div.contactoHotel p.subtitulo
+div#hotel p.subtituloR,
+div#comoLlegar p.titulo
 {
 	font-size: 40px;
 	letter-spacing: 10px;
@@ -174,7 +174,7 @@ div#boletos p.restriccion{
     font-weight: 500;
     text-align: center;
 }
-div#boletos .botonBoleto p,div#mesaRegalos p,div#dressCode p,div#comoLlegar p,div.infoHotel p,
+div#boletos .botonBoleto p,div#mesaRegalos p,div#dressCode p,div.infoHotel p,
 div.hotelReservacion p{
 	color: #fff;
 }
@@ -228,15 +228,50 @@ div.bannerHotel{
 div.bannerHotel figure{
 	margin-top: 165px;
 }
-
-div#hotel p.titulo{
+div#hotel p.titulo, div#hotel div.infoReservacion p.precio{
 	color:#07c4cc;
+}
+div#hotel p.titulo{
 	text-align: left;
 }
+
+div#hotel figure.mosaico,div#comoLlegar figure.mosaico{
+	margin-right: 10px;
+}
+
 div#hotel div.contactoHotel
 {
     padding: 50px 100px 0 100px;
     border-right: 1px solid #d3d3d3;
+}
+div#hotel p.disponibilidad{
+	color: #cf246e;
+}
+div#hotel p.disponibilidad span{
+	color: #000;
+}
+div#hotel div.infoReservacion
+{
+    padding: 50px 100px 0 100px;
+}
+div#hotel div.infoReservacion p.precio{
+	font-size: 45px;
+	margin-bottom: 50px;
+	letter-spacing: 5px;
+}
+div#hotel div.infoReservacion p.tituloServicios{
+	margin-bottom: 0;
+	letter-spacing: 5px;
+}
+div#hotel div.infoReservacion p.contenido{
+	margin-top: -25px;
+	border-bottom: 1px solid #000;
+	font-size: 22px;
+	letter-spacing: 5px;
+	padding-bottom: 50px;
+}
+div#hotel div.infoReservacion{
+ 	font-weight: 700;
 }
 div#hotel div.contactoHotel a,div#hotel div.contactoHotel p{
 	color:#000;
@@ -247,7 +282,7 @@ div#hotel div.contactoHotel a,div#hotel div.contactoHotel p{
 div#hotel div.contactoHotel p:nth-child(2){
 	font-weight: 700;
 }
-div#hotel div.contactoHotel p.subtitulo{
+div#hotel p.subtituloR{
 	font-size: 20px;
 	text-align: left;
 	margin-bottom: 30px;
@@ -270,6 +305,26 @@ div#hotel div.contactoHotel a:nth-child(1){
 	height: 100%;
 }
 
+div#comoLlegar{
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #f7f7f7;
+}
+
+div#comoLlegar p.titulo{
+	text-align: left;
+}
+div#comoLlegar p.direccion{
+	font-size: 25px;
+}
+div#comoLlegar div.transporte{
+	border-right: 1px solid #07c4cc;; 
+}
+div#comoLlegar figure figcaption{
+	text-align: left;
+    font-size: 12px;
+}
+
 div.bgAzul{
 	background: #07c4cc;
     padding: 50px 10px;
@@ -283,8 +338,9 @@ div.hotelReservacion{
 
 
 #mapa{
-    height: 400px;
+    height: 500px;
     width: 100%;
+    margin-top: 50px;
 }
 div.infoTransporte{
 	margin: 20px 0;
@@ -400,7 +456,6 @@ div.bannerMesaRegalos p{
 	div#boletos p:nth-child(1), 
 	div#mesaRegalos p:nth-child(1), 
 	div#dressCode p:nth-child(1), 
-	div#comoLlegar p:nth-child(1), 
 	div#lugarFecha p:nth-child(2), 
 	div.hotelReservacion p.titulo,
 	div.bgAzul p.titulo,
@@ -434,6 +489,15 @@ div.bannerMesaRegalos p{
 	}
 	div.hotelReservacion p{
 		font-size: 16px;
+	}
+	div#hotel div.contactoHotel {
+    	padding: 50px 10px 0 20px;
+	}
+	div#hotel div.infoReservacion {
+    	padding: 50px 30px 0 30px;
+	}
+	div#comoLlegar p.direccion {
+	    font-size: 20px;
 	}
 
 }
