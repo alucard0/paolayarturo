@@ -199,7 +199,7 @@ include 'header.php';
 				</figure>
 			</div>
 			<div class="col-10 col-sm-5">
-				<p class="titulo">¿Cómo llegar?</p>
+				<p class="titulo ">¿Cómo llegar?</p>
 				<hr class="rosa">
 				<p class="direccion">Lago de Teques lt 36 4ª sección Tequesquitengo, Jojutla, Morelos (Bajada 6 Hasta el fondo)</p>
 			</div>
@@ -211,7 +211,7 @@ include 'header.php';
 								<img src="images/iconos/car.png" alt="hotel" class="img-fluid">
 							</figure>
 							<figure class="col text-center">
-								<img src="images/iconos/bus.png" alt="hotel" class="img-fluid">
+								<img src="images/iconos/bus.png" alt="hotel" class="img-fluid btn-sonar">
 								<figcaption>CENTRAL DE AUTOBUSES TAXQUEÑA
 								Tomar la partida a Jojutla / entrando a Teques  pedir al conductor que los deje en el módulo de Jojutla y pedir taxi. solicitar que los lleve al faro en la bajada 6 del lago.
 								</figcaption>
@@ -244,7 +244,7 @@ include 'header.php';
 	</div>
 	<div class="container-fluid" id="textoCursi">
 		<div class="row">
-			<p>Esa energía tan inmensa y el amor que tienes por la vida...La forma en la que todo termina con una sonrisa, creer que apoyándonos mutuamente podemos lograrlo todo... gracias  por tu inspiración, gracias amor :) Telas frescas, colores vivos y toda la actitud para lucirte en el calorcito de verano.</p>
+			<p>Esa energía tan inmensa y el amor que tienes por la vida...La forma en la que todo termina con una sonrisa, creer que apoyándonos mutuamente podemos lograrlo todo... gracias  por tu inspiración, gracias amor :)</p>
 		</div>
 	</div>
 

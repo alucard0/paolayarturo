@@ -47,7 +47,7 @@
                     items : 3,
                     loop:true,
                     nav:false,
-                    autoHeight:true,
+                    autoHeight:false,
                     responsive:{
                     0:{
                         items:1

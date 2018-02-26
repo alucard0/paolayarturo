@@ -480,6 +480,20 @@ footer p{
 	font-size: 20px;
 	letter-spacing: 4px;
 }
+
+.btn-sonar {
+  background: #FF594C;
+  border: 0;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+  color: #fff;
+  outline: none;
+  position: relative;
+
+}
+
 /*Fin Contenido*/
 /*Footer*/
 /*Fin Footer*/
