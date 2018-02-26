@@ -16,26 +16,26 @@ html body{
 }
 /*Background Rosa*/
 header div.contenidoHeader div.invitacionContenido p:nth-child(1),
-div.bgBoletos,div.bgMesaRegalos,
-div.bgDressCode,div.bgComoLlegar{
+div.bgBoletos,div#mesaRegalos{
 	background-color: #e8297c;
 	
 }
 header div.contenidoHeader div.invitacionContenido p:nth-child(1){
 	padding: 3.3% 0;
 }
-/*padding-top: 26px; para boletos, para invitacion padding-top: 12px;*/
+
 
 /*Titulos*/
 header div.contenidoHeader div.invitacionContenido p:nth-child(1),
 div#boletos div.botonBoleto p.titulo,
-div#mesaRegalos p:nth-child(1),
-div#dressCode p:nth-child(1),
+div#mesaRegalos p.titulo,
+div#dressCode p.titulo,
 div#lugarFecha p.titulo,
 div.hotelReservacion p.titulo,
 div#hotel p.titulo,
 div#hotel p.subtituloR,
-div#comoLlegar p.titulo
+div#comoLlegar p.titulo,
+div#despedida p.titulo
 {
 	font-size: 40px;
 	letter-spacing: 10px;
@@ -48,14 +48,22 @@ div#comoLlegar p.titulo
 
 }
 
-.img-tmp{
-	width: 100px;
+
+hr{
+	border-top: 25px solid rgba(0,0,0,.1);
+	margin: 1rem auto 1rem 0;
+	width: 40%;
 }
-.img-tmp400{
-	width: 400px;
+hr.rosa{
+	border-color: #e8297c;
 }
-.img-tmp300{
-	width: 300px;
+hr.azul{
+	border-color: #07c4cc;
+}
+
+div#dressCode hr, div#mesaRegalos hr{
+	margin: 1rem auto 1rem auto;
+	width: 10%;
 }
 /*Fin General*/
 
@@ -72,13 +80,10 @@ nav.navbar.navbar-light{
 .navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
     color: #d2d2d2;
 }
-nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link.active{
-  text-decoration: underline;
-}
-nav.navbar.navbar-light div.navbar-nav a.nav-item.nav-link:hover{
-  text-decoration: underline;
-}
 
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+	color: #d2d2d2;
+}
 button:focus {
     outline: none;
 }
@@ -174,7 +179,10 @@ div#boletos p.restriccion{
     font-weight: 500;
     text-align: center;
 }
-div#boletos .botonBoleto p,div#mesaRegalos p,div#dressCode p,div.infoHotel p,
+div#boletos .botonBoleto{
+	cursor: pointer;
+}
+div#boletos .botonBoleto p,div#mesaRegalos p,div.infoHotel p,
 div.hotelReservacion p{
 	color: #fff;
 }
@@ -189,7 +197,7 @@ div#boletos div.botonBoleto p.contenido{
 	font-size: 25px;
 	padding-top: 80px;
 }
-div#boletos p.frase,div#lugarFecha p.contenido{
+div#boletos p.frase{
 	text-align: center;
 	font-size: 25px;
     padding: 25px 60px;
@@ -206,7 +214,7 @@ div#ceremonia a{
 	font-size: 35px;
 	color: #000;
 }
-div#lugarFecha{
+div#lugarFecha, div.lugar{
 	border-top: 1px solid #e8297c;
 }
 
@@ -214,7 +222,7 @@ div#lugarFecha p,div.infoHotel p{
 	text-align: center;
 }
 div#lugarFecha p.titulo{
-	padding: 50px 0;
+	text-align: left;
 }
 
 div.bannerHotel{
@@ -228,14 +236,18 @@ div.bannerHotel{
 div.bannerHotel figure{
 	margin-top: 165px;
 }
-div#hotel p.titulo, div#hotel div.infoReservacion p.precio{
+div#hotel p.titulo, 
+div#hotel div.infoReservacion p.precio,
+div#dressCode p.titulo{
 	color:#07c4cc;
 }
 div#hotel p.titulo{
 	text-align: left;
 }
 
-div#hotel figure.mosaico,div#comoLlegar figure.mosaico{
+div#hotel figure.mosaico,
+div#comoLlegar figure.mosaico,
+div#boletos figure.mosaico{
 	margin-right: 10px;
 }
 
@@ -285,7 +297,6 @@ div#hotel div.contactoHotel p:nth-child(2){
 div#hotel p.subtituloR{
 	font-size: 20px;
 	text-align: left;
-	margin-bottom: 30px;
 }
 div#hotel div.contactoHotel a:nth-child(1){
 	font-size: 45px;
@@ -304,11 +315,14 @@ div#hotel div.contactoHotel a:nth-child(1){
 	width: 100%;
 	height: 100%;
 }
-
+div#comoLlegar,
+div#dressCode,
+div#despedida{
+	background-color: #f7f7f7;
+}
 div#comoLlegar{
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #f7f7f7;
 }
 
 div#comoLlegar p.titulo{
@@ -323,6 +337,7 @@ div#comoLlegar div.transporte{
 div#comoLlegar figure figcaption{
 	text-align: left;
     font-size: 12px;
+    margin-top: 10px;
 }
 
 div.bgAzul{
@@ -332,111 +347,138 @@ div.bgAzul{
 div.bgAzul p.titulo{
 	color: #fff;
 }
-div.hotelReservacion{
-	padding: 50px;
-}
-
 
 #mapa{
     height: 500px;
     width: 100%;
     margin-top: 50px;
 }
-div.infoTransporte{
-	margin: 20px 0;
-	font-weight: 700;
+
+div#textoCursi{
+	padding: 50px 25%;
 }
 
+div#textoCursi p{
+	color: #e8297c;
+	font-size: 35px;
+}
+
+
+div#dressCode p.instruccion{
+	text-align: center;
+	font-size: 25px;
+	padding: 25px 0; 
+}
+
+div#dressCode p.subtitulo,div#mesaRegalos p.subtitulo{
+	font-size: 25px;
+    letter-spacing: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: 700;
+}
+div.infoDressCode{
+	    margin-bottom: 50px;
+}
 div.infoDressCode p{
 	color: #000;
 	width: 100%;
     margin-bottom: 0;
-    text-align: center;
 }
-div.infoDressCode p:nth-child(1){
-	text-transform: uppercase;
+div.infoDressCode p.titulo{
 	color:#07c4cc;
-	font-size: 25px;
+	font-size: 35px;
 	margin: 20px 0;
-}
-
-div.infoDressCode div.bgGris{
-	background-color: #e3e3e3;
-}
-div.infoDressCode div.bgGris p.titulo{
-	font-size: 40px;
-	color: #e8297c;
-	font-weight: 800;
-}
-div.infoDressCode div.bgGris p.subtitulo{
-	font-size: 25px;
-	font-weight: 800;
-}
-div.infoDressCode div.bgGris ul{
-	list-style: none;
-	margin-top: 15px;
-}
-
-div.infoHombres, div.infoMujeres{
-	padding: 0 15px;
-}
-
-span.iconoH{
-	background-image: url('../images/iconos/hombre.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	padding-left: 50px;  /* width of the image plus a little extra padding */
-}
-span.iconoM{
-	background-image: url('../images/iconos/mujer.png');
-	background-repeat: no-repeat;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	padding-left: 50px;  /* width of the image plus a little extra padding */
-}
-/*
-span.icono{
-    width: 40px;
-    height: 40px;
-    display: block;
-    float: left;
-    margin-top: 10px;
-    margin-right: -40px;
-}
-span.icono.hombre{
-    background: url(../images/iconos/hombre.png);
-    background-size: 40px 40px;
-    background-repeat: no-repeat;
-}
-span.icono.mujer{
-    background: url(../images/iconos/mujer.png);
-    background-size: 40px 40px;
-    background-repeat: no-repeat;
-}
-*/
-
-div.infoMesaRegalos p{
+	font-weight: 700;
+	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
+}
+div.infoDressCode p.subtitulo{
 	font-size: 25px;
+	text-align: center;
+}
+div.infoDressCode div.infoHombres, div.infoDressCode div.infoMujeres{
+	padding: 0 15px;
+	margin-top: 50px;
+}
+div.infoDressCode div.infoMujeres{
+	border-right: 2px solid #f7f7f7;
+}
+div.infoDressCode div.infoMujeres div.info p,div.infoHombres div.info p{
+	padding-left: 40%;
+}
+div.infoDressCode div.infoMujeres div.info p.color,
+div.infoDressCode div.infoMujeres div.info p.calzado,
+div.infoDressCode div.infoHombres div.info p.color,
+div.infoDressCode div.infoHombres div.info p.calzado{
+	font-size: 22px;
+}
+div.infoDressCode div.info{
+	margin-top: 30px;
+}
+div.info p.restriccion{
+	font-weight: 700;
 }
 
-div.bannerMesaRegalos{
-	background: url(../images/mesaRegalos/banner.jpg) no-repeat center center;
-	background-size: cover;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	padding: 200px 30px;
+div#mesaRegalos{
+	padding-top: 70px;
+	padding-bottom: 70px;
 }
-div.bannerMesaRegalos p{
-	color: #fff;
+
+div#mesaRegalos p.titulo{
+	color: #07c4cc;
 	font-size: 50px;
 	text-align: center;
+}
+div#mesaRegalos p.subtitulo{
+	color: #000;
+	letter-spacing: 5px;
+}
+div#mesaRegalos .infoMesaRegalos p{
+	text-align:  left;
+	font-size: 25px;
+	padding: 0 30%;
+}
+div#mesaRegalos a.boton{
+	background: #07c4cc;
+	color: #000;
+	font-weight: 700;
+	font-size: 25px;
+	letter-spacing: 10px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	padding: 25px 90px;
+    margin-top: 40px;
+}
+div#mesaRegalos a.boton:hover{
+	background: #06a7ac;
+}
+
+div.foto figure{
+	margin-bottom: 0;
+}
+
+div#despedida{
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+div#despedida p.titulo{
+	color:#07c4cc;
+}
+
+footer{
+	background: #111a41;
+}
+footer{
+	padding: 50px 0; 
+}
+
+footer p{
+	color: #07c4cc;
+	font-size: 20px;
+	letter-spacing: 4px;
 }
 /*Fin Contenido*/
 /*Footer*/
@@ -444,7 +486,8 @@ div.bannerMesaRegalos p{
 
 /*Media queries*/
 /*Extra small devices (portrait phones, less than 576px)*/
-@media (max-width: 575.98px) {
+@media (max-width: 575.98px)
+{
 	header div.contenidoHeader div.invitacionContenido p:nth-child(2){
 		font-size: 20px;
 	}
@@ -453,16 +496,12 @@ div.bannerMesaRegalos p{
 		letter-spacing: 8px;
 	}
 	header div.contenidoHeader div.invitacionContenido p:nth-child(1), 
-	div#boletos p:nth-child(1), 
-	div#mesaRegalos p:nth-child(1), 
-	div#dressCode p:nth-child(1), 
-	div#lugarFecha p:nth-child(2), 
 	div.hotelReservacion p.titulo,
 	div.bgAzul p.titulo,
 	div#lugarFecha p.contenido {
     	font-size: 20px;
 	}
-	div#boletos div.botonBoleto p:nth-child(1){
+	div#boletos div.botonBoleto p.titulo{
 		font-size: 26px;
 	}
 	div#boletos p.restriccion {
@@ -475,8 +514,12 @@ div.bannerMesaRegalos p{
 	    font-size: 20px;
 	    margin-bottom: 10px;
 	}
+	div#boletos p.frase{
+	    padding: 25px 10px;
+	}
 	div#lugarFecha p.titulo{
-		padding: 20px 0;
+		padding: 10px 0;
+		font-size: 25px;
 	}
 	div.bannerHotel{
 		padding: 1px;
@@ -499,29 +542,60 @@ div.bannerMesaRegalos p{
 	div#comoLlegar p.direccion {
 	    font-size: 20px;
 	}
+	div#comoLlegar p.titulo {
+	    font-size: 25px;
+	}
+	div#ceremonia {
+	    padding: 50px 10px;
+	}
+	div#textoCursi {
+	    padding: 40px 10%;
+	}
+	div#textoCursi p {
+	    font-size: 20px;
+	}
+	div.infoMujeres{
+		border-right:none;
+	}
+	div.infoDressCode div.infoMujeres div.info p, div.infoDressCode div.infoHombres div.info p {
+	    padding-left: 20%;
+	}
+	div#mesaRegalos .infoMesaRegalos p {
+	    padding: 0 10px;
+	}
+	div#mesaRegalos a.boton {
+	    font-size: 24px;
+	    padding: 20px 0px;
+	}
+	div#dressCode hr, div#mesaRegalos hr {
+	    width: 45%;
+	}
+}
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px)  {
+
+ 
 
 }
-/*Small devices (landscape phones, less than 768px)*/
-@media (max-width: 767.98px) {
- html{
-    font-size: 20px;
-  }
 
-}
-
-/*Medium devices (tablets, less than 992px)*/
-@media (max-width: 991.98px) { 
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
 
  html{
     font-size: 16px;
   }
 }
 
-/*Large devices (desktops, less than 1200px)*/
-@media (max-width: 1199.98px) { 
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px){ 
 
  html{
     font-size: 16px;
   }
+
+}
+
+/* Extra large devices (large desktops, 1200px and up*/
+@media (min-width: 1200px) { 
 
 }

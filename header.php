@@ -1,5 +1,4 @@
 <?php
-include 'modelo/headerFunciones.php';
 ob_start("ob_gzhandler");
 /**
 * 	@author Amilkhael Chávez Delgado;
@@ -112,8 +111,8 @@ ob_start("ob_gzhandler");
 
 		        <div class="navbar-collapse justify-content-center collapse" id="navbarsExample10" style="">
 		          <ul class="navbar-nav">
-		            <li class="nav-item active">
-		              <a class="nav-link" href="#boletos">Boletos<span class="sr-only">(current)</span></a>
+		            <li class="nav-item">
+		              <a class="nav-link" href="#boletos">Boletos</a>
 		            </li>
 		            <li class="nav-item">
 		              <a class="nav-link" href="#lugarFecha">Lugar y fecha</a>
@@ -124,10 +123,6 @@ ob_start("ob_gzhandler");
 		            <li class="nav-item">
 		              <a class="nav-link " href="#mesaRegalos">Mesa de Regalo</a>
 		            </li>
-		            <li class="nav-item">
-		              <a class="nav-link " href="#">Galería</a>
-		            </li>
-		            
 		          </ul>
 		        </div>
 	      	</nav>

@@ -1,4 +1,23 @@
-	<!-- Google -->
+	
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-12 col-sm-4">
+                <figure class="text-center">
+                    <img src="images/footer/logo.png" alt="" class="img-fluid">
+                </figure>
+            </div>
+            <div class="col-12 col-sm-4">
+                <p>Comparte tus fotos con</p>
+
+            </div>
+            <div class="col-12 col-sm-4">
+                <p>Contacto</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- Google -->
     <script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -12,9 +31,8 @@
 
 
     <!-- jQuery -->
-    <!--<script src="lib/jquery/jquery-3.2.1.min.js"></script>-->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
@@ -59,7 +77,7 @@
         });
       }
     </script>
-
+     <script src="js/home.js"></script>
     <!-- Fin Mapas Contacto y Footer -->
         <!-- API DE GOOGLE MAPS -->
     <script async defer

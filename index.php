@@ -9,7 +9,6 @@ include 'header.php';
 		<div class="fraseIntro justify-content-center">
 			<p>Hagamos de este día un mosaico de experiencias</p>
 			<p>¿Qué sería de nosotros sin tí? :D</p>
-			<hr>
 		</div>
 	</div>
 <figure class="nomargin"><img src="images/mosaicos/mosaicoDivision.png" alt="" class="img-fluid"></figure>
@@ -17,27 +16,33 @@ include 'header.php';
 		<div class="row justify-content-center no-gutters">
 			
 			<div class="col-12 col-sm-6">
-				<div class="row">
+				<div class="row no-gutters">
 					<div class="col-12">
 						<p class="frase">Para nosotros es un honor  que nos acompañes y seas parte de nuestro sueño,  por que como dice Michael J. Fox, "La familia no es algo importante. Lo es todo."</p>
 
 						<p class="restriccion">Evento sólo para mayores de 21 años</p>
 					</div>
-					<div class="col-12" id="lugarFecha">
+					<div class="col-2 col-sm-2 lugar">
+						<figure class="text-right mosaico">
+							<img src="images/mosaicos/hotel/4_ICONO-PALMA_100X100.png" alt="" class="img-fluid">
+						</figure>
+					</div>
+					<div class="col-10 col-sm-10" id="lugarFecha">
 						<p class="titulo">Lugar y Fecha</p>
+						<hr class="rosa">
 					</div>
 				</div>
 			</div>
-
-			<div class="col-12 col-sm-6 bgBoletos">
+				
+			<div class="col-12 col-sm-6 bgBoletos" data-toggle="modal" data-target="#modalBoletos">
 				<div class="row botonBoleto justify-content-center no-gutters">
 					<div class="col-2">
 						<figure class="nomargin text-left"><img src="images/mosaicos/2_ICONO_IZQ_PYA.png" alt="" class="img-fluid"></figure>
 					</div>
 					<div class="col-10 col-sm-8 bgBoletos">
-						<a href="#" data-toggle="modal" data-target="#modalBoletos">
-							<p class="titulo">Boletos</p>
-						</a>
+						
+						<p class="titulo">Boletos</p>
+						
 					</div>
 					<div class="col-2"></div>
 
@@ -146,7 +151,7 @@ include 'header.php';
 			<div class="col-10 col-sm-5">
 				<p class="titulo">Hotel</p>
 				<p class="subtituloR">Reservación</p>
-				<hr>
+				<hr class="rosa">
 			</div>
 			<div class="col-12 col-sm-6">
 				<div class="row">
@@ -195,14 +200,14 @@ include 'header.php';
 			</div>
 			<div class="col-10 col-sm-5">
 				<p class="titulo">¿Cómo llegar?</p>
-				<hr>
+				<hr class="rosa">
 				<p class="direccion">Lago de Teques lt 36 4ª sección Tequesquitengo, Jojutla, Morelos (Bajada 6 Hasta el fondo)</p>
 			</div>
 			<div class="col-12 col-sm-6">
 				<div class="row">
-					<div class="col transporte">
+					<div class="col-12 col-sm-6 transporte">
 						<div class="row">
-							<figure class="col text-right">
+							<figure class="col text-center">
 								<img src="images/iconos/car.png" alt="hotel" class="img-fluid">
 							</figure>
 							<figure class="col text-center">
@@ -215,7 +220,7 @@ include 'header.php';
 						</div>
 						
 					</div>
-					<div class="col">
+					<div class="col-12 col-sm-6 ">
 						<div class="row">
 							<div class="col">
 								<a href="https://www.waze.com/location?ll=18.612878,-99.279799" target="_blank" rel="noopener" >
@@ -226,7 +231,7 @@ include 'header.php';
 							</div>
 							<div class="col">
 								<a href="https://www.google.com.mx/maps/place/%22EL+FARO%22/@18.612878,-99.2819877,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdd362b84e3e91:0xf16fbfd753a2e978!8m2!3d18.612878!4d-99.279799?shorturl=1" target="_blank" rel="noopener" >
-										<figure class="text-left">
+										<figure class="text-center">
 											<img src="images/iconos/googlemaps.png" alt="hotel" class="img-fluid">
 										</figure>
 									</a>
@@ -237,167 +242,145 @@ include 'header.php';
 			</div>
 		</div>
 	</div>
-	<div class="container">
-		
-		
-		<div class="row infoTransporte">
-			<div class="col text-right">
-				<a href="https://www.waze.com/location?ll=18.612878,-99.279799" target="_blank" rel="noopener" ><figure><img src="images/iconos/waze.png" alt="mapa de waze" class="img-fluid"></figure></a>
-			</div>
-			<div class="col text-left">
-				<figure><img src="images/iconos/googlemaps.png" alt="" class="img-fluid"></figure></a>
-			</div>
-		</div>
-		<div class="row infoTransporte">
-			<div class="col-3 text-right">
-				<figure><img src="images/iconos/car.png" alt="" class="img-fluid"></figure>
-			</div>
-			<div class="col-9">
-				<p>Lago de Teques lt 36 4ª sección Tequesquitengo, Jojutla, Morelos (Bajada 6 Hasta el fondo)</p>
-			</div>
-			<div class="col-3 text-right">
-				<figure><img src="images/iconos/bus.png" alt="" class="img-fluid"></figure>
-			</div>
-			<div class="col-9">
-				<p>CENTRAL DE AUTOBUSES TAXQUEÑA
-				Tomar la partida a Jojutla / entrando a Teques  pedir al conductor que los deje en el módulo de Jojutla y pedir taxi. solicitar que los lleve al faro en la bajada 6 del lago.
-				</p>
-			</div>
-		</div>
-	</div>
-
-
-
-
-	<div class="container" id="dressCode">
+	<div class="container-fluid" id="textoCursi">
 		<div class="row">
-			<div class="col-2 nopaddingR">
-				<figure class="nomargin text-right"><img src="images/mosaicos/5_ICONO_IZQ_PLANTA.png" alt="" class="img-fluid img-tmp"></figure>
-			</div>
-			<div class="col bgDressCode">
-				<p>Dress code</p>
-				<!--<figure class="nomargin text-right"><img src="images/mosaicos/5_ICONO_CENTRO_PLANTAS.png" alt="" class="img-fluid"></figure>-->
-			</div>
-			<div class="col-2 nopaddingL">
-				<figure class="nomargin text-left"><img src="images/mosaicos/5_ICONO_DER_GATOS.png" alt="" class="img-fluid img-tmp"></figure>
-			</div>
-		</div>
-	</div>
-	<div class="container infoDressCode">
-		<div class="row">
-			<p>Formal playa/lino</p>
-		</div>
-		<div class="bgGris">
-			<div class="owl-carousel owl-theme">
-				<figure class="item"><img src="images/dresscode/mujeres/5_DRESSCODE-MUJER.jpg" alt=""></figure>
-				<figure class="item"><img src="images/dresscode/mujeres/2_DRESSCODE-MUJER.jpg" alt=""></figure>
-				<figure class="item"><img src="images/dresscode/mujeres/4_DRESSCODE-MUJER.jpg" alt=""></figure>
-				<figure class="item"><img src="images/dresscode/mujeres/6_DRESSCODE-MUJER.jpg" alt=""></figure>
-				<figure class="item"><img src="images/dresscode/mujeres/7_DRESSCODE-MUJER.jpg" alt=""></figure>
-				<figure class="item"><img src="images/dresscode/mujeres/8_DRESSCODE-MUJER.jpg" alt=""></figure>
-			</div>
-			<div class="infoMujeres">
-				<p class="titulo"><span class="iconoM"></span>Mujeres</p>
-				<p class="subtitulo">Vestido largo o 3/4 halter o strapless</p>
-				<div class="row justify-content-center">
-					<ul >
-						<li><strong>Color:</strong></li>
-						<li>Liso claro, pasteles, alegres y/o </li>
-						<li>vivos colores </li>
-						<li>No rosa mexicano ni fucsia</li>
-						<li>No blancos ni crema</li>
-						<li>No negros</li>
-						<li>Evitar brillos y estampados</li>
-						<li>Tacones o zapato abierto</li>
-					</ul>
-				</div>
-			</div>
-			
-			<div class="owl-carousel owl-theme">
-				<figure class="item">
-					<img src="images/dresscode/hombres/1_DRESSCODE-HOMBRE.jpg" alt="hombres" class="img-fluid">
-				</figure>
-				<figure class="item">
-					<img src="images/dresscode/hombres/2_DRESSCODE-HOMBRE.jpg" alt="">
-				</figure>
-				<figure class="item">
-					<img src="images/dresscode/hombres/3_DRESSCODE-HOMBRE.jpg" alt="">
-				</figure>
-				<figure class="item">
-					<img src="images/dresscode/hombres/4_DRESSCODE-HOMBRE.jpg" alt="">
-				</figure>
-				<figure class="item">
-					<img src="images/dresscode/hombres/5_DRESSCODE-HOMBRE.jpg" alt="">
-				</figure>
-				<figure class="item">
-					<img src="images/dresscode/hombres/6_DRESSCODE-HOMBRE.jpg" alt="">
-				</figure>
-				<figure class="item">
-					<img src="images/dresscode/hombres/7_DRESSCODE-HOMBRE.jpg" alt="">
-				</figure>
-			</div>
-			<div class="infoHombres">
-				<p class="titulo"><span class="iconoH"></span>Hombres</p>
-				<p class="subtitulo">Traje de lino o algodón</p>
-				<p class="subtitulo">Agradecemos atentamente no vestir guayaberas</p>
-				<div class="row justify-content-center">
-					<ul >
-						<li>Camisa de lino, algodón liviano o</li>
-						<li>seda ligera</li>
-						<li>Evitar texturas o impresos en la camisa </li>
-						<li>Se puede utilizar algún patrón discreto</li>
-						<li>Pantalón de lino o algodón</li>
-						<li><strong>Color:</strong></li>
-						<li>Claro,  blanco o arena, azules o negros.</li>
-						<li><strong>Calzado:</strong></li>
-						<li>Mocasín / calcetín adecuado</li>
-						<li>Zapato</li>
-					</ul>
-				</div>
-			</div>
+			<p>Esa energía tan inmensa y el amor que tienes por la vida...La forma en la que todo termina con una sonrisa, creer que apoyándonos mutuamente podemos lograrlo todo... gracias  por tu inspiración, gracias amor :) Telas frescas, colores vivos y toda la actitud para lucirte en el calorcito de verano.</p>
 		</div>
 	</div>
 
 
-
-
-	<div class="container" id="mesaRegalos">
-		<div class="row">
-			<div class="col-2 nopaddingR">
-				<figure class="nomargin text-right"><img src="images/mosaicos/6_ICONO_IZQ_ELEFANTE.png" alt="" class="img-fluid img-tmp"></figure>
-			</div>
-			<div class="col nopadding bgMesaRegalos">
-				<p>Mesa de regalos</p>
-			</div>
-			<div class="col-2 nopaddingL">
-				<figure class="nomargin text-left"><img src="images/mosaicos/6_ICONO_DER_AVION.png" alt="" class="img-fluid img-tmp"></figure>
-			</div>
-		</div>
-	</div>
-	<div class="container bannerMesaRegalos">
+	<div class="container-fluid" id="dressCode">
 		<div class="row justify-content-center">
 			<div class="col">
-				<p>Asian Wanderlust</p>
+				<p class="titulo">Dress code</p>
+				<p class="subtitulo">Formal Playa Lino</p>
+				<hr class="rosa">
 			</div>
-			
+		</div>
+		<div class="row">
+			<div class="owl-carousel owl-theme">
+					<figure class="item">
+						<img src="images/dresscode/mujeres/5_DRESSCODE-MUJER.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/mujeres/2_DRESSCODE-MUJER.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/mujeres/4_DRESSCODE-MUJER.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/mujeres/6_DRESSCODE-MUJER.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/mujeres/7_DRESSCODE-MUJER.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/mujeres/8_DRESSCODE-MUJER.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/hombres/1_DRESSCODE-HOMBRE.jpg" alt="hombres" class="img-fluid">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/hombres/2_DRESSCODE-HOMBRE.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/hombres/3_DRESSCODE-HOMBRE.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/hombres/4_DRESSCODE-HOMBRE.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/hombres/5_DRESSCODE-HOMBRE.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/hombres/6_DRESSCODE-HOMBRE.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/hombres/7_DRESSCODE-HOMBRE.jpg" alt="">
+					</figure>
+				</div>
+		</div>
+		<p class="instruccion">
+			Telas frescas, colores vivos y toda la actitud para lucirte en el verano.
+		</p>	
+	</div>
+	<div class="container-fluid infoDressCode">
+		<div class="row">
+			<div class="col-12 col-sm-6 infoMujeres">
+				<figure class="text-center"><img src="images/iconos/mujer.png" alt=""></figure>
+				<p class="titulo">Mujeres</p>
+				<p class="subtitulo">Vestido largo, 3/4 halter o<br>strapless</p>
+				<div class="row">
+					<div class="col info">
+						<p class="color"><strong>Color:</strong></p>
+						<p>Liso claro, pasteles, alegres y/o vivos colores</p>
+						<br>
+						<p class="calzado"><strong>Calzado:</strong></p>
+						<p>Tacones o zapato abierto</p>
+						<br>
+						<p class="restriccion">No rosa mexicano ni fucsia</p>
+						<p class="restriccion">No blancos ni crema</p>
+						<p class="restriccion">No negros</p>
+						<p class="restriccion">Evitar brillos y estampados</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-sm-6 infoHombres">
+				<figure class="text-center"><img src="images/iconos/hombre.png" alt=""></figure>
+				<p class="titulo">Hombres</p>
+				<p class="subtitulo">Traje de lino o algodón</p>
+				<p class="subtitulo">Agradecemos atentamente <strong>no vestir guayaberas</strong></p>
+				<div class="row">
+					<div class="col info">
+						<p class="color"><strong>Color:</strong></p>
+						<p>Claro,  blanco o arena, azules o negros.</p>
+						<br>
+						<p class="calzado"><strong>Calzado:</strong></p>
+						<p>Mocasín / calcetín adecuado / Zapato</p>
+						<br>
+						<p>Camisa de lino, algodón liviano o seda ligera</p>
+						<p>Se puede utilizar algún patrón discreto</p>
+						<br>
+						<p>Pantalón de lino o algodón</p>
+						<br>
+						<p class="restriccion">Evitar texturas o impresos en la camisa</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+	<div class="container-fluid" id="mesaRegalos">
+		<div class="row">
+			<div class="col">
+				<p class="titulo">Mesa de regalos</p>
+				<p class="subtitulo">Luna de miel en Asia</p>
+				<hr class="azul">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col infoMesaRegalos">
+				<p>Sabores, fotos y aprendizaje… los viajes siempre nos han apasionado y queremos concretar un sueño…  Asia!</p>
+				<p>¿Qué tal si nos invitas un desayuno o la entrada al Gran Palacio Real en Bangkok?</p>
+			</div>
+		</div>
+		<div class="row justify-content-center">
+			<a href="https://boda-paoyarturo.zankyou.com/mx/mesa-regalos/mesa-regalos" target="_blank" rel="noopener" class="boton">ir a mesa de Regalo</a>
 		</div>
 		
 	</div>
-
-	<div class="container infoMesaRegalos">
-		<div class="row justify-content-center">
-			<div class="col-12">
-				<p>Sabores, fotos y aprendizaje… los viajes siempre nos han apasionado y queremos concretar un sueño…  Asia!</p>
-			</div>
-			<div class="col-12">
-				<p>¿Qué tal si nos invitas un desayuno o la entrada al Gran Palacio Real en Bangkok?</p>
-			</div>
-			<div class="col-12">
-				<p>Elige alguna opción de la mesa de regalos y ayúdanos a vivir nuestra luna de miel soñada.  :)
-			</p>
-			</div>
-			<a href="https://boda-paoyarturo.zankyou.com/mx/mesa-regalos/mesa-regalos" target="_blank" rel="noopener" class="btn btn-primary">Ver mesa de Regalo</a>
+	<div class="container-fluid foto">
+		<div class="row">
+			<figure>
+				<img src="images/mesaRegalos/foto.jpg" alt="" class="img-fluid">
+			</figure>
 		</div>
+	</div>
+	<div class="container-fluid" id="despedida">
+		<p class="titulo">¡Nos vemos en julio!</p>
 	</div>
 
 <?php include 'footer.php';?>
