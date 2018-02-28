@@ -67,14 +67,16 @@ include 'header.php';
 	        </button>
 	      </div>
 	      <div class="modal-body">
-	        <form action="#">
+	        <form id="formBoletos">
 	        	<div class="form-group">
 	        		<label for="correo">Dirección de correo</label>
-    				<input type="email" class="form-control" id="correo" aria-describedby="emailHelp" placeholder="Escribe tu correo" required="required">
+    				<input type="email" class="form-control" id="cmpCorreo" name="cmpCorreo" aria-describedby="emailHelp" placeholder="Escribe tu correo" required="required">
     				<small id="emailHelp" class="form-text text-muted">Los boletos te llegarán a tu correo.</small>
 	        	</div>
 	        	<button type="submit" class="btn btn-primary">Obtener boletos</button>
 	        </form>
+	        <p class="success">¡Listo! Te hemos enviado los boletos a tu correo ;)</p>
+	        <p class="error">Correo no existente</p>
 	      </div>
 	      <div class="modal-footer">
 	       
@@ -201,7 +203,7 @@ include 'header.php';
 			<div class="col-10 col-sm-5">
 				<p class="titulo ">¿Cómo llegar?</p>
 				<hr class="rosa">
-				<p class="direccion">Lago de Teques lt 36 4ª sección Tequesquitengo, Jojutla, Morelos (Bajada 6 Hasta el fondo)</p>
+				<p class="direccion">Si viajas temprano por la autopista , pasa Cuernavaca y detente en 4 vientos a desayunar la mejor cecina del mundo ! , retoma tu camino y no te pases la segunda salida a la derecha . Verás unos cuantos valientes bajando en paracaídas ...  sigue por la carretera de teques hacia la izquierda y pasando un par de minutos verás  una salida  que solo tiene plantas . Hay un anuncio de tres cielos muy sutil en ese acceso. Entras y ve por el camino de la derecha hasta llegar al portón del hotel.</p>
 			</div>
 			<div class="col-12 col-sm-6">
 				<div class="row">
@@ -209,9 +211,10 @@ include 'header.php';
 						<div class="row">
 							<figure class="col text-center">
 								<img src="images/iconos/car.png" alt="hotel" class="img-fluid">
+								<figcaption>Lago de Teques lt 36 4ª sección Tequesquitengo, Jojutla, Morelos (Bajada 6 Hasta el fondo)</figcaption>
 							</figure>
 							<figure class="col text-center">
-								<img src="images/iconos/bus.png" alt="hotel" class="img-fluid btn-sonar">
+								<img src="images/iconos/bus.png" alt="hotel" class="img-fluid">
 								<figcaption>CENTRAL DE AUTOBUSES TAXQUEÑA
 								Tomar la partida a Jojutla / entrando a Teques  pedir al conductor que los deje en el módulo de Jojutla y pedir taxi. solicitar que los lleve al faro en la bajada 6 del lago.
 								</figcaption>

@@ -38,3 +38,35 @@ $('a[href*="#"]')
   });
 });
 
+jQuery(function($){
+	$('.success').hide();
+	$('.error').hide();
+	$('form').on('submit', function (e) {
+
+	    e.preventDefault();
+
+	    $.ajax({
+	            type: 'post',
+	            url: 'controlador/controllerBoletos.php',
+	            data: $('form').serialize(),
+	            success: function (data) {
+	            	if(data=='Error'){
+	            		$('.error').delay(500).fadeIn();
+	            	}
+	            	else
+	            	{
+	            		$('#formBoletos').fadeOut();
+	    				$('.success').delay(500).fadeIn();
+	    			  	$('.error').fadeOut();
+	            	}
+	              
+	            },
+	            error: function (data){
+	            	
+	            	$('.error').delay(500).fadeIn();
+	            }
+	    });
+
+	});
+});
+

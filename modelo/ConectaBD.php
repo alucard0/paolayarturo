@@ -17,11 +17,12 @@
 		public function __construct()
 		{
 			$this->host="127.0.0.1";
-		//	$this->username="landing";
-                        $this->username="somefrie_pa";
-		//	$this->password="Lasalle2017";
-                        $this->password="rFvI0h5,Mge@";
-			$this->dbname="somefrie_paola";
+            //$this->username="somefrie_pa";
+            //$this->password="rFvI0h5,Mge@";
+            $this->username="root";
+            $this->password="";
+			//$this->dbname="somefrie_paola";
+			$this->dbname="paola";
 			$this->port="3306";
 		}
 		//Metodos

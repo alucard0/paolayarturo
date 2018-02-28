@@ -1,4 +1,5 @@
 <?php
+
 /*
 * Versión: 1.0;
 * Cliente: Somefriends;
@@ -6,9 +7,19 @@
 * Documento: Controlador de Contacto
 */
 	include_once '../modelo/Contacto.php';
+	include_once '../modelo/BoletosBO.php';
+	$boletosLogica = new BoletosBO($_POST);
 	$contactoLogica = new Contacto($_POST);
-	$contactoLogica->obtenDestinatariosServicios();
-	$contactoLogica->enviarCorreo();
+	$numboletos=$boletosLogica->obtenNumeroBoletos();
+	if($numboletos>0)
+	{
+		$contactoLogica->obtenAdjuntoBoletos($numboletos);
+		$contactoLogica->enviarCorreo();
+	}
+	else{
+		echo"Error";
+	}
 
-	//header('Location: ../views/contacto.php');//Redirecionamos a la siguiente pagina del formulario
+	
+
 ?>
