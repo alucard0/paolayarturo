@@ -44,10 +44,14 @@ include 'header.php';
 						<p class="titulo">Boletos</p>
 						
 					</div>
-					<div class="col-2"></div>
+					<div class="col-2">
+					</div>
 
-					<div class="col-12">
+					<div class="col-12 col-sm-12 col-md-12 col-lg-6">
 						<p class="contenido">Obten tus boletos<br><span class="oi oi-data-transfer-download"></span></p>
+					</div>
+					<div class="col-md-12 col-lg-6 d-none d-sm-block">
+						<figure><img src="boletos/cel2.png" alt="" class="img-fluid celular"></figure>
 					</div>
 				</div>
 			</div>
@@ -86,9 +90,10 @@ include 'header.php';
 	</div>
 
 	<div class="container-fluid" id="ceremonia">
-		<div class="row justify-content-center">
+		<div class="row justify-content-center no-gutters">
 			<div class="col-12">
-				<p class="contenido">La ceremonia religiosa y el banquete tendrá lugar el 14<br> de julio 2018 en el hotel Tres Cielos Tequesquitengo.</p>
+				<p class="contenido">La ceremonia religiosa y el banquete tendrá lugar el 14 de julio<br>2018 en el hotel Tres Cielos Tequesquitengo.</p>
+
 				<a href="http://trescielos.mx/" target="_blank" rel="noopener" class="mx-auto">trescielos.mx</a>
 			</div>
 		</div>
@@ -111,35 +116,35 @@ include 'header.php';
 	<!--Aqui va carrousel-->
 	<div class="container-fluid">
 		<div class="row">
-			<div class="owl-carousel owl-theme">
-  	  	<figure class="item">
-			<img src="images/trescielos/8_TRESCIELOS.jpg" alt="" class="img-fluid">
-   		</figure>
-	  	<figure class="item">
-   			<img src="images/trescielos/5_TRESCIELOS.jpg" alt="" class="img-fluid">
-   		</figure>
-	  	<figure class="item">
-   			<img src="images/trescielos/4_TRESCIELOS.jpg" alt="" class="img-fluid">
-   		</figure>
-   		<figure class="item">
-   			<img src="images/trescielos/3_TRESCIELOS.jpg" alt="" class="img-fluid">
-   		</figure>
-		<figure class="item">
-   			<img src="images/trescielos/2_TRESCIELOS.jpg" alt="" class="img-fluid">
-   		</figure>
-   		<figure class="item">
-   			<img src="images/trescielos/6_TRESCIELOS.jpg" alt="" class="img-fluid">
-   		</figure>
-   		<figure class="item">
-   			<img src="images/trescielos/7_TRESCIELOS.jpg" alt="" class="img-fluid">
-   		</figure>
-	   		<figure class="item">
-	  			<img src="images/trescielos/1_TRESCIELOS.jpg" alt="" class="img-fluid">
-		</figure>
-   		<div class="item videoWrapper">
-   			<iframe width="100%" src="https://www.youtube.com/embed/5sI5OTtQmxc?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-   		</div>
- 	</div>
+			<div id="lugar" class="owl-carousel owl-theme">
+		  	  	<figure class="item">
+					<img src="images/trescielos/8_TRESCIELOS.jpg" alt="" class="img-fluid">
+		   		</figure>
+			  	<figure class="item">
+		   			<img src="images/trescielos/5_TRESCIELOS.jpg" alt="" class="img-fluid">
+		   		</figure>
+			  	<figure class="item">
+		   			<img src="images/trescielos/4_TRESCIELOS.jpg" alt="" class="img-fluid">
+		   		</figure>
+		   		<figure class="item">
+		   			<img src="images/trescielos/3_TRESCIELOS.jpg" alt="" class="img-fluid">
+		   		</figure>
+				<figure class="item">
+		   			<img src="images/trescielos/2_TRESCIELOS.jpg" alt="" class="img-fluid">
+		   		</figure>
+		   		<figure class="item">
+		   			<img src="images/trescielos/6_TRESCIELOS.jpg" alt="" class="img-fluid">
+		   		</figure>
+		   		<figure class="item">
+		   			<img src="images/trescielos/7_TRESCIELOS.jpg" alt="" class="img-fluid">
+		   		</figure>
+			   		<figure class="item">
+			  			<img src="images/trescielos/1_TRESCIELOS.jpg" alt="" class="img-fluid">
+				</figure>
+		   		<div class="item videoWrapper">
+		   			<iframe width="100%" src="https://www.youtube.com/embed/5sI5OTtQmxc?rel=0&amp;showinfo=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+		   		</div>
+ 			</div>
 		</div>
 	</div>
 	
@@ -157,20 +162,20 @@ include 'header.php';
 			</div>
 			<div class="col-12 col-sm-6">
 				<div class="row">
-					<div class="col-3">
+					<div class="col-3 col-sm-3 col-md-3">
 						<figure class="text-right">
 							<img src="images/iconos/cama.png" alt="hotel" class="img-fluid">
 						</figure>
 					</div>
-					<div class="col-3">
-						<p class="disponibilidad">Disponibilidad<br><span>12 habitaciones dobles</span></p>
+					<div class="col-9 col-sm-4 col-md-9">
+						<p class="disponibilidad">Disponibilidad<br><span>12 habitaciones dobles<br>(<i>cupo máximo 2 personas/hab.</i>)</span></p>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="row">
 			<div class="col-12 col-sm-6 contactoHotel">
-				<p>Verónica</p>
+				<p><strong>Verónica Navarro</strong></p>
 				<a href="mailto:vero@trescielos.mx" class="mx-auto">vero@trescielos.mx</a>
 				<a href="mailto:reservaciones@trescielos.mx" class="mx-auto">reservaciones@trescielos.mx</a>
 				<br>
@@ -182,9 +187,9 @@ include 'header.php';
 			</div>
 			<div class="col-12 col-sm-6 infoReservacion">
 				<p class="precio">$2,200.00</p>
-				<p class="contenido">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en abril</p>
+				<p class="contenido">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en mayo</p>
 				<p class="tituloServicios">Servicios</p>
-				<p class="contenidoSerivicios">Cancha de tenis / Cancha de padel / Alberca<br>Muelle / Snackbar / Palapa</p>
+				<p class="contenidoSerivicios">Cancha de tenis / Cancha de padel<br>/ Alberca / Muelle / Snackbar /<br>Palapa</p>
 			</div>
 		</div>
 		<div class="row">
@@ -203,7 +208,7 @@ include 'header.php';
 			<div class="col-10 col-sm-5">
 				<p class="titulo ">¿Cómo llegar?</p>
 				<hr class="rosa">
-				<p class="direccion">Si viajas temprano por la autopista , pasa Cuernavaca y detente en 4 vientos a desayunar la mejor cecina del mundo ! , retoma tu camino y no te pases la segunda salida a la derecha . Verás unos cuantos valientes bajando en paracaídas ...  sigue por la carretera de teques hacia la izquierda y pasando un par de minutos verás  una salida  que solo tiene plantas . Hay un anuncio de tres cielos muy sutil en ese acceso. Entras y ve por el camino de la derecha hasta llegar al portón del hotel.</p>
+				<p class="direccion">Si viajas temprano por la autopista, pasa Cuernavaca y detente en Cuatro Vientos a desayunar ¡la mejor cecina del mundo!Retoma tu camino y verás unos cuantos valientes bajando en paracaídas, ya estás por llegar... es momento de buscar la dirección Lago de Teques lt 36 4ta sección Tequesquitengo, dirígete a la bajada 6 y verás el anuncio del Hotel Tres Cielos, sigue la bajada tomando siempre a la derecha, has llegado.</p>
 			</div>
 			<div class="col-12 col-sm-6">
 				<div class="row">
@@ -225,17 +230,17 @@ include 'header.php';
 					</div>
 					<div class="col-12 col-sm-6 ">
 						<div class="row">
-							<div class="col">
+							<div class="col col-md-12 col-lg-6">
 								<a href="https://www.waze.com/location?ll=18.612878,-99.279799" target="_blank" rel="noopener" >
 									<figure class="text-center">
-										<img src="images/iconos/waze.png" alt="hotel" class="img-fluid">
+										<img src="images/iconos/waze.png" alt="hotel" class="pulse img-fluid">
 									</figure>
 								</a>
 							</div>
-							<div class="col">
+							<div class="col col-md-12 col-lg-6">
 								<a href="https://www.google.com.mx/maps/place/%22EL+FARO%22/@18.612878,-99.2819877,17z/data=!3m1!4b1!4m5!3m4!1s0x85cdd362b84e3e91:0xf16fbfd753a2e978!8m2!3d18.612878!4d-99.279799?shorturl=1" target="_blank" rel="noopener" >
 										<figure class="text-center">
-											<img src="images/iconos/googlemaps.png" alt="hotel" class="img-fluid">
+											<img src="images/iconos/googlemaps.png" alt="hotel" class="pulse img-fluid">
 										</figure>
 									</a>
 							</div>
@@ -247,7 +252,9 @@ include 'header.php';
 	</div>
 	<div class="container-fluid" id="textoCursi">
 		<div class="row">
-			<p>Esa energía tan inmensa y el amor que tienes por la vida...La forma en la que todo termina con una sonrisa, creer que apoyándonos mutuamente podemos lograrlo todo... gracias  por tu inspiración, gracias amor :)</p>
+			<p>Esa energía tan inmensa y el amor que tienes por la vida, la forma en la que todo termina con una sonrisa, saber que apoyándonos mutuamente podemos lograrlo todo... gracias por tu inspiración, gracias amor :)</p>
+			<br>
+			<p>Tu sonrisa ilumina mis mañanas y revitaliza mi pasión por continuar el camino, el construir nuestro destino le da certeza al significado de compartir nuestras vidas, juntos por siempre en este viaje, siempre tuyo bebé.</p>
 		</div>
 	</div>
 
@@ -256,50 +263,50 @@ include 'header.php';
 		<div class="row justify-content-center">
 			<div class="col">
 				<p class="titulo">Dress code</p>
-				<p class="subtitulo">Formal Playa Lino</p>
+				<p class="subtitulo">Formal Playa<br><span class="restriccion">HOMBRES NO VESTIR GUAYABERAS</span></p>
 				<hr class="rosa">
 			</div>
 		</div>
-		<div class="row">
-			<div class="owl-carousel owl-theme">
+		<div class="row" >
+			<div id="dress" class="owl-carousel owl-theme">
 					<figure class="item">
-						<img src="images/dresscode/mujeres/5_DRESSCODE-MUJER.jpg" alt="">
+						<img src="images/dresscode/mujeres/1.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/mujeres/2_DRESSCODE-MUJER.jpg" alt="">
+						<img src="images/dresscode/mujeres/2.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/mujeres/4_DRESSCODE-MUJER.jpg" alt="">
+						<img src="images/dresscode/mujeres/3.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/mujeres/6_DRESSCODE-MUJER.jpg" alt="">
+						<img src="images/dresscode/mujeres/4.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/mujeres/7_DRESSCODE-MUJER.jpg" alt="">
+						<img src="images/dresscode/mujeres/5.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/mujeres/8_DRESSCODE-MUJER.jpg" alt="">
+						<img src="images/dresscode/mujeres/6.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/hombres/1_DRESSCODE-HOMBRE.jpg" alt="hombres" class="img-fluid">
+						<img src="images/dresscode/mujeres/7.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/hombres/2_DRESSCODE-HOMBRE.jpg" alt="">
+						<img src="images/dresscode/hombres/10.jpg" alt="hombres" class="img-fluid">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/hombres/3_DRESSCODE-HOMBRE.jpg" alt="">
+						<img src="images/dresscode/hombres/11.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/hombres/4_DRESSCODE-HOMBRE.jpg" alt="">
+						<img src="images/dresscode/hombres/12.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/hombres/5_DRESSCODE-HOMBRE.jpg" alt="">
+						<img src="images/dresscode/hombres/13.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/hombres/6_DRESSCODE-HOMBRE.jpg" alt="">
+						<img src="images/dresscode/hombres/14.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/hombres/7_DRESSCODE-HOMBRE.jpg" alt="">
+						<img src="images/dresscode/hombres/15.jpg" alt="">
 					</figure>
 				</div>
 		</div>
@@ -332,7 +339,7 @@ include 'header.php';
 				<figure class="text-center"><img src="images/iconos/hombre.png" alt=""></figure>
 				<p class="titulo">Hombres</p>
 				<p class="subtitulo">Traje de lino o algodón</p>
-				<p class="subtitulo">Agradecemos atentamente <strong>no vestir guayaberas</strong></p>
+				<p class="subtitulo">Agradecemos atentamente <strong>NO VESTIR GUAYABERAS</strong></p>
 				<div class="row">
 					<div class="col info">
 						<p class="color"><strong>Color:</strong></p>
@@ -372,6 +379,9 @@ include 'header.php';
 		</div>
 		<div class="row justify-content-center">
 			<a href="https://boda-paoyarturo.zankyou.com/mx/mesa-regalos/mesa-regalos" target="_blank" rel="noopener" class="boton">ir a mesa de Regalo</a>
+		</div>
+		<div class="row">
+			<figure><img src="images/mosaicos/0_MOSAICOS_SEPARADOR-ASIA_2560X170.png" alt="" class="img-fluid"></figure>
 		</div>
 		
 	</div>

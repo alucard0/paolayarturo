@@ -65,6 +65,42 @@ div#dressCode hr, div#mesaRegalos hr{
 	margin: 1rem auto 1rem auto;
 	width: 10%;
 }
+.pulse {
+  border-radius: 50%;
+  box-shadow: 0 0 0 rgb(8, 197, 205);
+  animation: pulse 2s infinite;
+}
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgb(8, 197, 205);
+  }
+  70% {
+      -webkit-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -webkit-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      background: #d2f4fd;
+  }
+}
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgb(8, 197, 205);
+    box-shadow: 0 0 0 0 rgb(8, 197, 205);
+  }
+  70% {
+      -moz-box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+      box-shadow: 0 0 0 10px rgba(204,169,44, 0);
+  }
+  100% {
+      -moz-box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      box-shadow: 0 0 0 0 rgba(204,169,44, 0);
+      background: #d2f4fd;
+  }
+}
 /*Fin General*/
 
 /*Header*/
@@ -189,6 +225,13 @@ div.hotelReservacion p{
 div#boletos span{
 	font-size: 20px;
 }
+div#boletos figure img.celular{
+	margin-top: -80px;
+    position: absolute;
+    margin-left: 50px;
+}
+
+
 div#boletos div.botonBoleto p.titulo{
 	margin-top: 50px;
 }
@@ -209,6 +252,9 @@ div#ceremonia{
 }
 div#ceremonia p{
 	font-size: 25px;
+	/*text-align: left;
+	padding-left: 35%;*/
+	text-align: center;
 }
 div#ceremonia a{
 	font-size: 35px;
@@ -329,7 +375,10 @@ div#comoLlegar p.titulo{
 	text-align: left;
 }
 div#comoLlegar p.direccion{
-	font-size: 25px;
+	font-size: 20px;
+    line-height: 24px;
+	text-align: justify;
+	padding-right: 30px;
 }
 div#comoLlegar div.transporte{
 	border-right: 1px solid #07c4cc;; 
@@ -355,23 +404,35 @@ div.bgAzul p.titulo{
 }
 
 div#textoCursi{
-	padding: 50px 25%;
+	background: url(../images/textoCursi/back.jpg) no-repeat center center;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	padding: 25% 25% 0 25%;
 }
 
 div#textoCursi p{
-	color: #e8297c;
-	font-size: 35px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 20px;
+	text-align: center;
+	font-weight: 300;
 }
-
+div#dressCode{
+	padding-top: 50px;
+}
 
 div#dressCode p.instruccion{
 	text-align: center;
 	font-size: 25px;
 	padding: 25px 0; 
 }
-
+div#dressCode p.subtitulo span.restriccion{
+	letter-spacing: 0;
+}
 div#dressCode p.subtitulo,div#mesaRegalos p.subtitulo{
-	font-size: 25px;
+	font-size: 20px;
     letter-spacing: 10px;
     font-family: 'Open Sans Condensed', sans-serif;
     text-transform: uppercase;
@@ -423,11 +484,12 @@ div.info p.restriccion{
 
 div#mesaRegalos{
 	padding-top: 70px;
-	padding-bottom: 70px;
 }
-
+div#mesaRegalos figure{
+	margin-bottom: 0;
+	margin-top: 100px;
+}
 div#mesaRegalos p.titulo{
-	color: #07c4cc;
 	font-size: 50px;
 	text-align: center;
 }
@@ -439,6 +501,15 @@ div#mesaRegalos .infoMesaRegalos p{
 	text-align:  left;
 	font-size: 25px;
 	padding: 0 30%;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #07c4cc;
+    border-color: #07c4cc;
+}
+.btn-primary:hover,.btn-primary:focus{
+	background-color: #06a7ac;
+    border-color: #06a7ac;
 }
 div#mesaRegalos a.boton{
 	background: #07c4cc;
@@ -472,16 +543,22 @@ footer{
 	background: #111a41;
 }
 footer{
-	padding: 50px 0; 
+	padding: 50px 0 25px 0; 
 }
-
+footer p.titulo{
+	font-size: 25px;
+}
 footer p{
 	color: #07c4cc;
-	font-size: 20px;
+	font-size: 18px;
 	letter-spacing: 4px;
 }
-
-
+footer a{
+	color: #fff;
+}
+footer a:hover{
+	color: #d3d3d3;
+}
 /*Fin Contenido*/
 /*Footer*/
 /*Fin Footer*/
@@ -551,7 +628,7 @@ footer p{
 	    padding: 50px 10px;
 	}
 	div#textoCursi {
-	    padding: 40px 10%;
+	    padding: 35% 15px 0 15px;
 	}
 	div#textoCursi p {
 	    font-size: 20px;
@@ -568,6 +645,9 @@ footer p{
 	div#mesaRegalos a.boton {
 	    font-size: 24px;
 	    padding: 20px 0px;
+	}
+	div#mesaRegalos figure {
+	    margin-top: 50px;
 	}
 	div#dressCode hr, div#mesaRegalos hr {
 	    width: 45%;
@@ -586,6 +666,17 @@ footer p{
  html{
     font-size: 16px;
   }
+  div#boletos figure {
+	    text-align: center;
+	}
+  div#boletos figure img.celular {
+	    margin-top: 0;
+	    position: relative;
+	    margin-left: 0;
+	}
+	div#hotel div.contactoHotel {
+	    padding: 50px 10px 0 25px;
+	}
 }
 
 /*Large devices (desktops, 992px and up)*/
@@ -594,6 +685,9 @@ footer p{
  html{
     font-size: 16px;
   }
+  div#boletos figure img.celular {
+	    margin-top: -20px;
+	}
 
 }
 

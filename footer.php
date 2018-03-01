@@ -1,17 +1,26 @@
 	
     <footer class="container-fluid">
         <div class="row">
-            <div class="col-12 col-sm-4">
+            <div class="col-12 col-md-12 col-lg-4">
                 <figure class="text-center">
                     <img src="images/footer/logo.png" alt="" class="img-fluid">
                 </figure>
             </div>
-            <div class="col-12 col-sm-4">
-                <p>Comparte tus fotos con</p>
+            <div class="col-12 col-md-6 col-lg-4">
+                <p class="titulo">Comparte tus fotos con</p>
+                <div class="row">
+                    <div class="col-2"><figure class="text-right"><img src="images/iconos/instagram-2.png" alt="" class="img-fluid"></figure></div>
+                    <div class="col-2"><p>#paoyarturoboda</p></div>
+                </div>
+                
+                
 
             </div>
-            <div class="col-12 col-sm-4">
-                <p>Contacto</p>
+            <div class="col-12 col-md-6 col-lg-4">
+                <p class="titulo">Contacto</p>
+                <p>Verónica Navarro (Tres Cielos)<br>Cel.: <a href="tel://55-4217-7895">55 4217 7895</a></p>
+                <p>Daniela Hernández (Wedding Planner)<br>Cel.: <a href="tel://55-1320-9380">55 1320 9380</a></p>
+                <p>Paola Rosales (Wedding Planner)<br>Cel.: <a href="tel://55-1811-9828">55 1811 9828</a></p>
             </div>
         </div>
     </footer>
@@ -41,7 +50,31 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.2.1/owl.carousel.min.js"></script>
       <script type="text/javascript"> 
             $(document).ready(function() {
-                $(".owl-carousel").owlCarousel({
+                $("#dress.owl-carousel").owlCarousel({
+                    autoplay: true,
+                    autoplayTimeout:4000, //Set AutoPlay to 3 seconds
+                    items : 8,
+                    loop:true,
+                    nav:false,
+                    autoHeight:false,
+                    responsive:{
+                    0:{
+                        items:2
+                    },
+                    600:{
+                        items:5
+                    },
+                    1000:{
+                        items:8
+                    }
+                }
+                                
+              });
+          });
+        </script>
+              <script type="text/javascript"> 
+            $(document).ready(function() {
+                $("#lugar.owl-carousel").owlCarousel({
                     autoplay: true,
                     autoplayTimeout:4000, //Set AutoPlay to 3 seconds
                     items : 3,
