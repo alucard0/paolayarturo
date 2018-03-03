@@ -34,6 +34,8 @@ include_once 'ConectaBD.php';
 	   			$row = $result->fetch_assoc();
 				$numBoletos=$row["numeroBoletos"];
 			}
+			$query="UPDATE boletos SET estatus=1 WHERE correo='".$this->correo."'";
+			$bdconectada->consulta($query);
 
 			$bdconectada->desconectar();
 

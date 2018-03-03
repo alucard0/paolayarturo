@@ -186,8 +186,8 @@ include 'header.php';
 			
 			</div>
 			<div class="col-12 col-sm-6 infoReservacion">
-				<p class="precio">$2,200.00</p>
-				<p class="contenido">Precio por 1 noche<br>3 pagos mensuales de<br>$733.33 a liquidar en mayo</p>
+				<p class="precio">$4,400.00</p>
+				<p class="contenido">Precio por 2 noches<br>3 pagos mensuales de<br>$1,466.66 a liquidar en mayo</p>
 				<p class="tituloServicios">Servicios</p>
 				<p class="contenidoSerivicios">Cancha de tenis / Cancha de padel<br>/ Alberca / Muelle / Snackbar /<br>Palapa</p>
 			</div>

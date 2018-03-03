@@ -62,30 +62,6 @@ ob_start("ob_gzhandler");
 	<![endif]-->
 	
 
-	<!--js SCHEMA-->
-	<script type='application/ld+json'> 
-	{
-	  "@context": "http://schema.org",
-	  "@type": "Organization",
-	  "name": "Somefriends",
-	  "url": "http://somefriends.pro/",
-	  "logo": "http://somefriends.pro/images/logo/somefriendslogo.png",
-	  "description": "Somos un grupo integrado por empresas amigas, especializadas en áreas clave para el desarrollo integral de tu proyecto.",
-	  "address": {
-	    "@type": "PostalAddress",
-	    "addressLocality": "Ciudad de México",
-	    "addressRegion": "CDMX",
-	    "postalCode": "11800",
-	    "addressCountry": "México"
-	  },
-	  "contactPoint": {
-	    "@type": "ContactPoint",
-	    "contactType": "customer support",
-	    "email": "ventas@somefriends.pro",
-	    "url": "http://somefriends.pro/cotiza"
-	  }
-	}
-	</script>
 	<!-- favicon -->
 	<link rel="apple-touch-icon" sizes="180x180" href="images/favicon/apple-touch-icon.png">
 	<link rel="icon" type="image/png" sizes="32x32" href="images/favicon/favicon-32x32.png">
