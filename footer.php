@@ -52,7 +52,7 @@
             $(document).ready(function() {
                 $("#dress.owl-carousel").owlCarousel({
                     autoplay: true,
-                    autoplayTimeout:4000, //Set AutoPlay to 3 seconds
+                    autoplayTimeout:4000,
                     items : 8,
                     loop:true,
                     nav:false,
@@ -76,7 +76,7 @@
             $(document).ready(function() {
                 $("#lugar.owl-carousel").owlCarousel({
                     autoplay: true,
-                    autoplayTimeout:4000, //Set AutoPlay to 3 seconds
+                    autoplayTimeout:4000,
                     items : 3,
                     loop:true,
                     nav:false,
