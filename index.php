@@ -175,19 +175,20 @@ include 'header.php';
 		</div>
 		<div class="row">
 			<div class="col-12 col-sm-6 contactoHotel">
-				<p><strong>Verónica Navarro</strong></p>
-				<a href="mailto:vero@trescielos.mx" class="mx-auto">vero@trescielos.mx</a>
+				<p><strong>Edgar Olivares</strong></p>
+				<!--<a href="mailto:vero@trescielos.mx" class="mx-auto">vero@trescielos.mx</a>-->
 				<a href="mailto:reservaciones@trescielos.mx" class="mx-auto">reservaciones@trescielos.mx</a>
 				<br>
-				<a href="tel://55-6845-6444" class="mx-auto">(55) 6845 6444</a>
-				<a href="tel://734-3470-613" class="mx-auto">(734) 3470 613</a>
+				<!--<a href="tel://55-6845-6444" class="mx-auto">(55) 6845 6444</a>-->
+				<!--<a href="tel://734-3470-613" class="mx-auto">(734) 3470 613</a>-->
+				<a href="tel://734-3470-613" class="mx-auto">(55) 4683 6251</a>
 				<br>
 				<p class="mx-auto">de 8:00 a 17:00 h</p>
 			
 			</div>
 			<div class="col-12 col-sm-6 infoReservacion">
 				<p class="precio">$4,400.00</p>
-				<p class="contenido">Precio por 2 noches<br>3 pagos mensuales de<br>$1,466.66 a liquidar en mayo</p>
+				<p class="contenido">Precio por 3 días y 2 noches,<br><span class="periodo">viernes 13 al domingo 15 de julio</span><br>3 pagos mensuales de<br>$1,466.66 a liquidar en mayo</p>
 				<p class="tituloServicios">Servicios</p>
 				<p class="contenidoSerivicios">Cancha de tenis / Cancha de padel<br>/ Alberca / Muelle / Snackbar /<br>Palapa</p>
 			</div>

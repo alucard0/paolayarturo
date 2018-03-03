@@ -328,6 +328,9 @@ div#hotel div.infoReservacion p.contenido{
 	letter-spacing: 5px;
 	padding-bottom: 50px;
 }
+div#hotel div.infoReservacion p.contenido span.periodo{
+	letter-spacing: 0;
+}
 div#hotel div.infoReservacion{
  	font-weight: 700;
 }
