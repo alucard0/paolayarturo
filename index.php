@@ -8,7 +8,7 @@ include 'header.php';
 	<div class="container-fluid bgAzul">
 		<div class="fraseIntro justify-content-center">
 			<p>Hagamos de este día un mosaico de experiencias</p>
-			<p>¿Qué sería de nosotros sin tí? :D</p>
+			<p>¿Qué sería de nosotros sin ti? :D</p>
 		</div>
 	</div>
 <figure class="nomargin"><img src="images/mosaicos/mosaicoDivision.png" alt="" class="img-fluid"></figure>
@@ -48,7 +48,7 @@ include 'header.php';
 					</div>
 
 					<div class="col-12 col-sm-12 col-md-12 col-lg-6">
-						<p class="contenido">Obten tus boletos<br><span class="oi oi-data-transfer-download"></span></p>
+						<p class="contenido">Obtén tus boletos<br><span class="oi oi-data-transfer-download"></span></p>
 					</div>
 					<div class="col-md-12 col-lg-6 d-none d-sm-block">
 						<figure><img src="boletos/cel2.png" alt="" class="img-fluid celular"></figure>
@@ -92,7 +92,7 @@ include 'header.php';
 	<div class="container-fluid" id="ceremonia">
 		<div class="row justify-content-center no-gutters">
 			<div class="col-12">
-				<p class="contenido">La ceremonia religiosa y el banquete tendrá lugar el 14 de julio<br>2018 en el hotel Tres Cielos Tequesquitengo.</p>
+				<p class="contenido">La ceremonia religiosa y el banquete tendrá lugar el 14 de julio<br>2018 en el hotel Tres Cielos Tequesquitengo.<br><strong>Ceremonia religiosa 15:00 h.</strong></p>
 
 				<a href="http://trescielos.mx/" target="_blank" rel="noopener" class="mx-auto">trescielos.mx</a>
 			</div>
@@ -274,40 +274,40 @@ include 'header.php';
 						<img src="images/dresscode/mujeres/1.jpg" alt="">
 					</figure>
 					<figure class="item">
-						<img src="images/dresscode/mujeres/2.jpg" alt="">
-					</figure>
-					<figure class="item">
-						<img src="images/dresscode/mujeres/3.jpg" alt="">
-					</figure>
-					<figure class="item">
-						<img src="images/dresscode/mujeres/4.jpg" alt="">
-					</figure>
-					<figure class="item">
-						<img src="images/dresscode/mujeres/5.jpg" alt="">
-					</figure>
-					<figure class="item">
-						<img src="images/dresscode/mujeres/6.jpg" alt="">
-					</figure>
-					<figure class="item">
-						<img src="images/dresscode/mujeres/7.jpg" alt="">
-					</figure>
-					<figure class="item">
 						<img src="images/dresscode/hombres/10.jpg" alt="hombres" class="img-fluid">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/mujeres/2.jpg" alt="">
 					</figure>
 					<figure class="item">
 						<img src="images/dresscode/hombres/11.jpg" alt="">
 					</figure>
 					<figure class="item">
+						<img src="images/dresscode/mujeres/3.jpg" alt="">
+					</figure>
+					<figure class="item">
 						<img src="images/dresscode/hombres/12.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/mujeres/4.jpg" alt="">
 					</figure>
 					<figure class="item">
 						<img src="images/dresscode/hombres/13.jpg" alt="">
 					</figure>
 					<figure class="item">
+						<img src="images/dresscode/mujeres/5.jpg" alt="">
+					</figure>
+					<figure class="item">
 						<img src="images/dresscode/hombres/14.jpg" alt="">
 					</figure>
 					<figure class="item">
+						<img src="images/dresscode/mujeres/6.jpg" alt="">
+					</figure>
+					<figure class="item">
 						<img src="images/dresscode/hombres/15.jpg" alt="">
+					</figure>
+					<figure class="item">
+						<img src="images/dresscode/mujeres/7.jpg" alt="">
 					</figure>
 				</div>
 		</div>
@@ -332,7 +332,7 @@ include 'header.php';
 						<p class="restriccion">No rosa mexicano ni fucsia</p>
 						<p class="restriccion">No blancos ni crema</p>
 						<p class="restriccion">No negros</p>
-						<p class="restriccion">Evitar brillos y estampados</p>
+						<p class="restriccion">Evitar brillos</p>
 					</div>
 				</div>
 			</div>
