@@ -92,7 +92,8 @@ include 'header.php';
 	<div class="container-fluid" id="ceremonia">
 		<div class="row justify-content-center no-gutters">
 			<div class="col-12">
-				<p class="contenido">La ceremonia religiosa y el banquete tendrá lugar el 14 de julio<br>2018 en el hotel Tres Cielos Tequesquitengo.<br><strong>Ceremonia religiosa 15:00 h.</strong></p>
+				<p class="contenido">La ceremonia religiosa y el banquete tendrá lugar el 14 de julio<br>2018 en el hotel Tres Cielos Tequesquitengo.</p>
+				<p class="contenido"><strong>Ceremonia religiosa 15:00 h.</strong></p>
 
 				<a href="http://trescielos.mx/" target="_blank" rel="noopener" class="mx-auto">trescielos.mx</a>
 			</div>
