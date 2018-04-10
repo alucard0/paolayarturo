@@ -500,6 +500,9 @@ div#mesaRegalos p.subtitulo{
 	color: #000;
 	letter-spacing: 5px;
 }
+div#mesaRegalos .infoMesaRegalos{
+	margin-bottom: 40px;
+}
 div#mesaRegalos .infoMesaRegalos p{
 	text-align:  left;
 	font-size: 25px;
@@ -646,8 +649,9 @@ footer a:hover{
 	    padding: 0 10px;
 	}
 	div#mesaRegalos a.boton {
-	    font-size: 24px;
-	    padding: 20px 0px;
+	    font-size: 18px;
+        padding: 20px 20px;
+        letter-spacing: 2px;
 	}
 	div#mesaRegalos figure {
 	    margin-top: 50px;

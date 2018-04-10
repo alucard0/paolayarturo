@@ -94,11 +94,15 @@ ob_start("ob_gzhandler");
 		              <a class="nav-link" href="#lugarFecha">Lugar y fecha</a>
 		            </li>
 		            <li class="nav-item">
-		              <a class="nav-link " href="#dressCode">Dress Code</a>
+		              <a class="nav-link " href="#mesaRegalos">Mesa de regalo</a>
 		            </li>
 		            <li class="nav-item">
-		              <a class="nav-link " href="#mesaRegalos">Mesa de Regalo</a>
+		              <a class="nav-link " href="#dressCode">Dress code</a>
 		            </li>
+		            <li class="nav-item">
+		              <a class="nav-link " href="#comoLlegar">¿Cómo llegar?</a>
+		            </li>
+
 		          </ul>
 		        </div>
 	      	</nav>
