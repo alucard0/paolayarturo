@@ -35,7 +35,8 @@ div.hotelReservacion p.titulo,
 div#hotel p.titulo,
 div#hotel p.subtituloR,
 div#comoLlegar p.titulo,
-div#despedida p.titulo
+div#despedida p.titulo,
+div.infoActividades p.titulo
 {
 	font-size: 40px;
 	letter-spacing: 10px;
@@ -287,7 +288,7 @@ div#hotel div.infoReservacion p.precio,
 div#dressCode p.titulo{
 	color:#07c4cc;
 }
-div#hotel p.titulo{
+div#hotel p.titulo, div.infoActividades p.titulo{
 	text-align: left;
 }
 
@@ -399,7 +400,31 @@ div.bgAzul{
 div.bgAzul p.titulo{
 	color: #fff;
 }
-
+div.infoActividades{
+		padding-left: 80px;
+}
+div.infoActividades hr{
+	margin: 0rem auto 1rem 0;
+	border-top-width: 10px;
+    width: 10%;
+}
+div.infoActividades .btn{
+  padding: 0.375rem 8.75rem;
+  border-radius:0;
+}
+div#modalActividades p,div#modalActividades a{
+	color: #07c4cc;
+}
+div#modalActividades p.titulo{
+    font-size: 22px;
+}
+div#modalActividades p.subtitulo{
+    font-size: 20px;
+}
+div#modalActividades p.info{
+    font-size: 16px;
+    font-weight: 100;
+}
 #mapa{
     height: 500px;
     width: 100%;
@@ -669,11 +694,26 @@ footer a:hover{
 	div#dressCode hr, div#mesaRegalos hr {
 	    width: 45%;
 	}
+	div.infoActividades{
+		padding-left: 0;
+	}
+	div.infoActividades hr{
+		width: 45%;
+	}
+
 }
 /*Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) and (max-width: 767.98px)  {
 
- 
+	div.infoActividades hr{
+		width: 45%;
+	}
+	div.infoActividades .btn {
+    	padding: .375rem 5.75rem;
+	}
+	div.infoActividades{
+		padding-left: 0;
+	}
 
 }
 
@@ -693,6 +733,9 @@ footer a:hover{
 	}
 	div#hotel div.contactoHotel {
 	    padding: 50px 10px 0 25px;
+	}
+	div.infoActividades hr{
+		width: 45%;
 	}
 }
 

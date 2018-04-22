@@ -12,6 +12,10 @@
                     <div class="col-2"><figure class="text-right"><img src="images/iconos/instagram-2.png" alt="" class="img-fluid"></figure></div>
                     <div class="col-2"><p>#paoyarturoboda</p></div>
                 </div>
+                <div class="row">
+                    <div class="col-2"><figure class="text-right"><img src="images/iconos/facebook.png" alt="" class="img-fluid"></figure></div>
+                    <div class="col-2"><p><a href="https://www.facebook.com/paolayarturo.boda" target="_blank">paolayarturo.boda</a></p></div>
+                </div>
                 
                 
 

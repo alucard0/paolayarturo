@@ -282,6 +282,99 @@ include 'header.php';
 		   		</div>
  			</div>
 		</div>
+		<div class="row infoActividades">
+			<div class="col-12">
+				<p class="titulo">Actividades</p>
+				<hr class="azul">
+				<p>¿Eres amante de la adrenalina?  ¿Te gustaría conocer algunos de los atractivos de Teques?.<br>
+					Te dejamos algunas de las recomendaciones para aprovechar tu estancia en Tres Cielos.
+				</p>
+				<div class="btn btn-primary" data-toggle="modal" data-target="#modalActividades">
+					Ver lista
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Modal -->
+	<div class="modal fade" id="modalActividades" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+	    <div class="modal-content">
+	      <div class="modal-header">
+	        
+	        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	          <span aria-hidden="true">&times;</span>
+	        </button>
+	      </div>
+	      <div class="modal-body">
+	        <div class="container-fluid">
+	        	<div class="row">
+	        		<div class="col-12 col-md-6">
+	        			<p class="titulo">
+	        				<strong>Aventura en las alturas</strong>
+	        			</p>
+	        			<p class="subtitulo">Servicio de Vuelos y saltos en Paracaidas.</p>
+	        			<p class="info">David Olea "Albatros"<br>
+							<a href="tel:7773275932">777 3275 932</a>
+	        			</p>
+	        			<p class="info">Salto en paracaídas $1,950.00<br>
+							Paquete video y fotografía de caída libre $950.00</p>
+	        			<br>
+	        			<p class="subtitulo">Vuelo Panorámico</p>
+	        			<p class="info">Xochicalco 1 hr $3,000.00<br>
+							Taxco 30 min. $4,800.00<br>
+							Para tres personas únicamente.
+	        			</p>
+	        			<br>
+	        			<p class="subtitulo">Vuelo ultraligero</p>
+	        			<p class="info">10 a 12 minutos $1,300.00<br>
+							18 a 20 minutos $1,750.00<br>
+							40 a 45 minutos $2,950.00
+	        			</p>
+	        			<p class="subtitulo">Vuelo acrobático 10 maniobras</p>
+	        			<p class="info">30 minutos $2,800.00<br>
+							Piloto por un día $2,700.00
+	        			</p>
+	        			<p class="subtitulo">Globo Aerostático</p>
+	        			<p class="info">2 personas $6,000.00<br>
+							6 personas $2,500.00 cada una.
+	        			</p>
+	        		</div>
+	        		<div class="col-12 col-md-6">
+	        			<p class="titulo">
+	        				<strong>Velocidad acuática</strong>
+	        			</p>
+	        			<p class="subtitulo">Servicio de Lanchas y Motos Acuaticas</p>
+	        			<p class="info">Sr. Jesús Barreda<br>
+							<a href="tel:734112966">734 112 966</a>
+	        			</p>
+	        			<p class="info">Paseo en lancha 8 personas 1 hr. $1,000.00<br>
+						Ski acuático 6 personas 1 hr. $1,000.00
+						<br>
+						Moto Acuática 2 personas
+	        			</p>
+	        			<p class="titulo">
+	        				<strong>Turistenado</strong>
+	        			</p>
+	        			<p class="subtitulo">Jardines de México</p>
+	        			<p class="info">Hacienda Vistahermosa<br>
+	        			(propiedad de Hernán Cortés)</p>
+	        			<p class="titulo">
+	        				<strong>Restaurantes</strong>
+	        			</p>
+	        			<p class="info">Marina del Sol<br>
+	        			Tipsys Tapas - Bar<br>
+						Villa Floresta
+	        			</p>
+	        		</div>
+	        	</div>
+	        </div>
+	      </div>
+	      <div class="modal-footer">
+	       
+	      </div>
+	    </div>
+	  </div>
 	</div>
 	
 	<div class="container-fluid" id="hotel">
