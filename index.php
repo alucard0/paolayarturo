@@ -116,7 +116,7 @@ include 'header.php';
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-10 text-center">
-				<a href="https://boda-paoyarturo.zankyou.com/mx/mesa-regalos/mesa-regalos" target="_blank" rel="noopener" class="boton">ir a mesa de Regalo</a>
+				<a href="https://boda-paoyarturo.zankyou.com/mx/mesa-regalos/mesa-regalos" target="_blank" rel="noopener" class="boton">Ver mesa de Regalo</a>
 			</div>
 		</div>
 		<div class="row">
@@ -197,6 +197,16 @@ include 'header.php';
 						<p class="restriccion">No blancos ni crema</p>
 						<p class="restriccion">No negros</p>
 						<p class="restriccion">Evitar brillos</p>
+
+						<figure class="text-center"><img src="images/dresscode/mujeres/logo_ges.png" alt="" class="img-fluid"></figure>
+						<p class="infoMaquillaje">Maquillaje con aerógrafo y peinado en tequesquitengo.</p>
+						<br>
+						<p class="costoMaquillaje">$1.200.00</p>
+						<br>
+						<p><a href="tel:777 493 14 90">(777) 493 14 90</a></p>
+						<p><a href="mailto:gesestudio@hotmail.com">gesestudio@hotmail.com</a></p>
+						<br>
+						<p>Confirmación de citas hasta el 20 de junio.</p>
 					</div>
 				</div>
 			</div>

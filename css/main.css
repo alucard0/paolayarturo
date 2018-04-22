@@ -445,6 +445,15 @@ div#dressCode p.subtitulo,div#mesaRegalos p.subtitulo{
 div.infoDressCode{
 	    margin-bottom: 50px;
 }
+div.infoDressCode a{
+	color: #000;
+}
+div.infoDressCode a, div.infoDressCode p.infoMaquillaje{
+	font-size: 18px;
+}
+div.infoDressCode p.costoMaquillaje{
+	font-size: 25px;
+}
 div.infoDressCode p{
 	color: #000;
 	width: 100%;
@@ -518,8 +527,8 @@ div#mesaRegalos .infoMesaRegalos p{
     border-color: #06a7ac;
 }
 div#mesaRegalos a.boton{
-	background: #07c4cc;
-	color: #000;
+	border: solid 1px #07c4cc;
+	color: #fff;
 	font-weight: 700;
 	font-size: 25px;
 	letter-spacing: 10px;
@@ -530,7 +539,8 @@ div#mesaRegalos a.boton{
     margin-top: 40px;
 }
 div#mesaRegalos a.boton:hover{
-	background: #06a7ac;
+	background: #07c4cc;
+	color: #000;
 }
 
 div.foto figure{
