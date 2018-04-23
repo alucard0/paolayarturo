@@ -199,7 +199,7 @@ include 'header.php';
 						<p class="restriccion">Evitar brillos</p>
 
 						<figure class="text-center"><img src="images/dresscode/mujeres/logo_ges.png" alt="" class="img-fluid"></figure>
-						<p class="infoMaquillaje">Maquillaje con aerógrafo y peinado en tequesquitengo.</p>
+						<p class="infoMaquillaje">Maquillaje con aerógrafo y peinado en Tequesquitengo.</p>
 						<br>
 						<p class="costoMaquillaje">$1.200.00</p>
 						<br>
