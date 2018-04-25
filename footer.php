@@ -22,7 +22,6 @@
             </div>
             <div class="col-12 col-md-6 col-lg-4">
                 <p class="titulo">Contacto</p>
-                <p>Verónica Navarro (Tres Cielos)<br>Cel.: <a href="tel://55-4217-7895">55 4217 7895</a></p>
                 <p>Edgar Olivares (Tres Cielos)<br>Tel.: <a href="tel://55-4683-6251">55 4683 6251</a> (8:00 a 17:00 h)<br>Correo: <a href="mailto:reservaciones@trescielos.mx">reservaciones@trescielos.mx</a></p>
                 <p>Daniela Hernández (Wedding Planner)<br>Cel.: <a href="tel://55-1320-9380">55 1320 9380</a></p>
                 <p>Paola Rosales (Wedding Planner)<br>Cel.: <a href="tel://55-1811-9828">55 1811 9828</a></p>

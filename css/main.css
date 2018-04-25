@@ -379,8 +379,8 @@ div#comoLlegar p.titulo{
 	text-align: left;
 }
 div#comoLlegar p.direccion{
-	font-size: 20px;
-    line-height: 24px;
+	font-size: 12px;
+    line-height: 16px;
 	text-align: justify;
 	padding-right: 30px;
 }
@@ -592,7 +592,7 @@ footer p.titulo{
 footer p{
 	color: #07c4cc;
 	font-size: 18px;
-	letter-spacing: 4px;
+	
 }
 footer a{
 	color: #fff;
