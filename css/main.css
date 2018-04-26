@@ -381,7 +381,7 @@ div#comoLlegar p.titulo{
 div#comoLlegar p.direccion{
 	font-size: 12px;
     line-height: 16px;
-	text-align: justify;
+	text-align: left;
 	padding-right: 30px;
 }
 div#comoLlegar div.transporte{
@@ -660,7 +660,8 @@ footer a:hover{
     	padding: 50px 30px 0 30px;
 	}
 	div#comoLlegar p.direccion {
-	    font-size: 20px;
+	    font-size: 12px;
+    	line-height: 16px;
 	}
 	div#comoLlegar p.titulo {
 	    font-size: 25px;

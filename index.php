@@ -394,7 +394,7 @@ include 'header.php';
 			<div class="col-10 col-sm-5">
 				<p class="titulo ">¿Cómo llegar?</p>
 				<hr class="rosa">
-				<p class="direccion">Si viajas temprano por la autopista, pasa Cuernavaca y detente en Cuatro Vientos a desayunar ¡la mejor cecina del mundo!Retoma tu camino y verás unos cuantos valientes bajando en paracaídas, ya estás por llegar... es momento de buscar la dirección Lago de Teques lt 36 4ta sección Tequesquitengo, dirígete a la bajada 6 y verás el anuncio del Hotel Tres Cielos, sigue la bajada tomando siempre a la derecha, has llegado.</p>
+				<p class="direccion">Si viajas temprano por la autopista, pasa Cuernavaca y detente en Cuatro Vientos a desayunar ¡la mejor cecina del mundo! Retoma tu camino y verás unos cuantos valientes bajando en paracaídas, ya estás por llegar... es momento de buscar la dirección Lago de Teques lt 36 4ta sección Tequesquitengo, dirígete a la bajada 6 y verás el anuncio del Hotel Tres Cielos, sigue la bajada tomando siempre a la derecha, has llegado.</p>
 			</div>
 			<div class="col-12 col-sm-6">
 				<div class="row">
